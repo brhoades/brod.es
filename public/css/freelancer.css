@@ -344,11 +344,22 @@ footer .footer-below {
   -moz-border-radius: 150px;
 }
 
-#experience {
+#experience
+{
   text-align: left;
 }
 
-#experience .job-title {
-  
+#experience .job-title
+{
 
+}
+
+#experience .company
+{
+ float: left; 
+}
+
+#experience .timeline
+{
+  float: right;
 }
