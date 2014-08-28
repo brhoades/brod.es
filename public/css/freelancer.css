@@ -356,10 +356,18 @@ footer .footer-below {
 
 #experience .company
 {
- float: left; 
+  float: left;
 }
 
 #experience .timeline
 {
   float: right;
 }
+
+#experience .clear
+{
+  width: 100%;
+  height: 10px;
+  clear: both;
+}
+

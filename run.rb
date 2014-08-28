@@ -6,6 +6,7 @@ set :public_folder, "./public"
 
 def drawJobs( )
   jobsf = Dir.glob "jobs/*.textile"
+  jobsf.sort!.reverse!
   jobs = [ ]
 
   jobsf.each do |j|
