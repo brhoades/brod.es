@@ -1,5 +1,6 @@
 {% extends 'greeter/base.html' %}
 {% load staticfiles %}
+{% load fontawesome %}
 
 {% block content %}
 <!-- Header -->
@@ -14,16 +15,21 @@
           <span class="col-md-4 social">
             <ul class="list-inline">
               <li>
-              <a href="https://www.facebook.com/billy.rhoades.54" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                <a href="https://www.facebook.com/billy.rhoades.54" class="btn-social btn-outline">
+                  {% fontawesome_icon 'facebook' %}</a>
               </li>
               <li>
-              <a href="https://www.linkedin.com/pub/billy-rhoades/58/a9a/615" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/pub/billy-rhoades/58/a9a/615" class="btn-social btn-outline">
+                  {% fontawesome_icon 'linkedin' %}</a>
+              </li>
               </li>
               <li>
-              <a href="https://github.com/brhoades" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+              <a href="https://github.com/brhoades" class="btn-social btn-outline">
+                  {% fontawesome_icon 'github' %}</a>
               </li>
               <li>
-              <a href="mailto:billyarhoades@gmail.com" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
+              <a href="mailto:billyarhoades@gmail.com" class="btn-social btn-outline">
+                  {% fontawesome_icon 'envelope' %}</a>
               </li>
             </ul>
           </span>
