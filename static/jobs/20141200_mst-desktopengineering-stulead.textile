@@ -1,0 +1,9 @@
+<div id="job-title">Student Lead</div>
+
+<div id="company">Missouri S&T IT - Desktop Infrastructure</div>
+
+<div id="timeline">December 2014 - Present</div>
+
+<div id="clear"></div> 
+
+<stuff here>

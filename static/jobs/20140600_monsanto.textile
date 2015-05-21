@@ -1,8 +1,8 @@
-<div id="job-title">Service Performance and Reliability Intern</div>
+<div id="job-title">Service Performance and Reliability Co-op</div>
 
-<div id="company">Monsanto</div>
+<div id="company">Monsanto - IT - Global Infrastructure</div>
 
-<div id="timeline">Jun 2014 - Aug 2014</div>
+<div id="timeline">June 2014 - December 2014</div>
 
 <div id="clear"></div>
 
