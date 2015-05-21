@@ -9,8 +9,7 @@ def index(request):
     template = loader.get_template('greeter/index.html')
     context = {'jobs': []}
     
-    jobs = glob.glob('static/jobs/*')
-    jobs.reverse() # python globs in ascending
+    jobs = sorted(glob.glob('static/jobs/*'), reverse=True)
     for file in jobs:
         f = open(file, 'r')
         context['jobs'].append(f.read())
