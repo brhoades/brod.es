@@ -1,6 +1,7 @@
 {% extends 'greeter/base.html' %}
 {% load staticfiles %}
 {% load fontawesome %}
+{% load markup %}
 
 {% block content %}
 <!-- Header -->
@@ -47,19 +48,24 @@
         <h2 class="text-center">Experience</h2>
         <br />
 
-        <!-- <%= drawJobs %>       --!> 
-        
-        <div class="job">
+      
+        {% autoescape off %}
+        {% for job in jobs %}
+          <div class="job">
+            {{ job|textile }}
+          </div>
+        {% endfor %}
+        {% endautoescape %}
+        <!--
           <div class="job-title">
           </div>
           <div class="job-time">
           </div>
           <div class="job-company">
           </div>
+        --!>
 
-        </div>
 
-      </div>
     </div>
     <div class="row">
     </div>

@@ -1,2 +1,7 @@
 django
 django-fontawesome
+django-markwhat
+markdown
+textile
+docutils
+commonmark

@@ -1,0 +1,11 @@
+<div id="job-title">Service Performance and Reliability Intern</div>
+
+<div id="company">Monsanto</div>
+
+<div id="timeline">Jun 2014 - Aug 2014</div>
+
+<div id="clear"></div>
+
+* Developed a wrapper for performance testing internal sites with Selenium
+* Collaborated with a hackathon team to make a web-based idea board
+* Created a dashing dashboard to monitor SalesForce and AWS cloud status

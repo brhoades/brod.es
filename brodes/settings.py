@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'fontawesome',
+    'django_markwhat',
 )
 
 MIDDLEWARE_CLASSES = (
