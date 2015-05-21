@@ -1,0 +1,10 @@
+{
+    "configs" : {
+        "base" : {
+            "location" : "/home/aaron/projects/brod.es/",
+            "script" : "./relaunch.sh",
+            "branch" : "master",
+            "remote" : "origin"
+        }
+    }
+}
