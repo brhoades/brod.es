@@ -202,6 +202,7 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+    padding-bottom: 50px;
 }
 
 section.success {
@@ -357,11 +358,13 @@ footer .footer-below {
 #experience .company
 {
   float: left;
+  display: inline-block;
 }
 
 #experience .timeline
 {
   float: right;
+  display: inline-block;
 }
 
 #experience .clear
@@ -371,3 +374,24 @@ footer .footer-below {
   clear: both;
 }
 
+#projects
+{
+  text-align: left;
+}
+
+#projects .project-name
+{
+  font-size: 17px;
+}
+
+#projects .project-desc
+{
+  padding-left: 15px;
+}
+
+#projects.clear
+{
+  width: 100%;
+  height: 10px;
+  clear: both;
+}
