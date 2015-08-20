@@ -1,10 +1,10 @@
-<div id="job-title">Desktop Engineer</div>
+<div class="job-title">Desktop Engineer</div>
 
-<div id="company">Missouri S&T - IT - Desktop Infrastructure</div>
+<div class="company">Missouri S&T - IT - Desktop Infrastructure</div>
 
-<div id="timeline">May 2013 - June 2014</div>
+<div class="timeline">May 2013 - June 2014</div>
 
-<div id="clear"></div> 
+<div class="clear"></div> 
 
 * Packaged and maintained Perl applications 
 * Used Microsoft SCCM for software and OS deployments to over 4,000 machines

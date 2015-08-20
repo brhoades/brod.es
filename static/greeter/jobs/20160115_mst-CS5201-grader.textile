@@ -1,12 +1,12 @@
-<div id="job-title">Grader</div>
+<div class="job-title">Grader</div>
 
-<div id="company">Missouri S&T - CS5201 / CS328</div>
+<div class="company">Missouri S&T - CS5201 / CS328</div>
 
-<div id="timeline">January 2016 - May 2016</div>
+<div class="timeline">January 2016 - May 2016</div>
 
-<div id="clear"></div> 
+<div class="clear"></div> 
 
 * Graded homework assignments for Object Oriented Numerical Modeling
 * Served as sole point of contact for all programming questions
 * Held office hours to answer questions
-* Lectured on a few topics, including CRTP and Static Polymorphism, virtual memory management, and C++11/C++14 features
+* Lectured on a few topics, including CRTP / static polymorphism, virtual memory management, and C++11/C++14 features

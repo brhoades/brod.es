@@ -1,10 +1,10 @@
-<div id="job-title">Service Performance and Reliability Co-op</div>
+<div class="job-title">Service Performance and Reliability Co-op</div>
 
-<div id="company">Monsanto - IT - Global Infrastructure</div>
+<div class="company">Monsanto - IT - Global Infrastructure</div>
 
-<div id="timeline">June 2014 - December 2014</div>
+<div class="timeline">June 2014 - December 2014</div>
 
-<div id="clear"></div>
+<div class="clear"></div>
 
 * Developed <a href="https://github.com/brhoades/selenium_wrapper">Selenium Wrapper</a> for performance testing internal sites
 * Collaborated with a hackathon team to make a web-based idea board

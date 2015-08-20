@@ -1,10 +1,10 @@
-<div id="job-title">Student Support Analyst</div>
+<div class="job-title">Student Support Analyst</div>
 
-<div id="company">Missouri S&T - IT - Help Desk</div>
+<div class="company">Missouri S&T - IT - Help Desk</div>
 
-<div id="timeline">February 2011 - May 2013</div>
+<div class="timeline">February 2011 - May 2013</div>
 
-<div id="clear"></div> 
+<div class="clear"></div> 
 
 * Responsible for coordinating and scheduling appointments with customers
 * Called on to assist professors as a first contact

@@ -350,6 +350,11 @@ footer .footer-below {
   text-align: left;
 }
 
+#experience .job-description
+{
+  padding-left: 10px;
+}
+
 #experience .job-title
 {
 

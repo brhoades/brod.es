@@ -1,10 +1,10 @@
-<div id="job-title">Student Lead / Mentor</div>
+<div class="job-title">Student Lead / Mentor</div>
 
-<div id="company">Missouri S&T - IT Campus Tech. Support</div>
+<div class="company">Missouri S&T - IT Campus Tech. Support</div>
 
-<div id="timeline">February 2013 - May 2013</div>
+<div class="timeline">February 2013 - May 2013</div>
 
-<div id="clear"></div>  
+<div class="clear"></div>  
 
 * Coordinated and conducted meetings for more than 20 CTS students
 * Made and maintained procedural reference material

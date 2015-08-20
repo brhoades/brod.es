@@ -1,13 +1,14 @@
-<div id="job-title">Student Lead</div>
+<div class="job-title">Student Lead</div>
 
-<div id="company">Missouri S&T - IT - Desktop Infrastructure</div>
+<div class="company">Missouri S&T - IT - Desktop Infrastructure</div>
 
-<div id="timeline">December 2014 - Present</div>
+<div class="timeline">December 2014 - Present</div>
 
-<div id="clear"></div> 
+<div class="clear"></div> 
 
 * Delegated and assigned work to students
 * Trained incoming and senior students
+* Set up and interviewed new student candidates
 * Served as a point of contact for DI
 * Created new policy which puts all new packages and code on Git
 * Managed campus SCCM site as a primary administrator
