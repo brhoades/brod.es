@@ -35,3 +35,23 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+var evaluateScrollToTop = function()
+{
+  var e = $('.scroll-top');
+  if(window.scrollY < 565 && e.css('opacity') == 1) {
+    e.fadeOut(400, function() {
+          $(this).css('opacity', 0).hide();
+        });
+  }
+  else if(window.scrollY >= 565 && e.css("opacity") == 0) {
+    e.show().fadeIn(400, function() { 
+          $(this).css('opacity', 1);
+        });
+  }
+};
+
+//$(document).ready(function() {evaluateScrollToTop()});
+
+// Fade out the scroll to top button when we're at the top
+window.addEventListener("scroll", evaluateScrollToTop, false);
