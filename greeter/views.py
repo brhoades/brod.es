@@ -7,7 +7,11 @@ import glob
 # Create your views here.
 def index(request):
     template = loader.get_template('greeter/index.html')
-    context = {'jobs': [], 'projects': []}
+    context = {'jobs': [], 'projects': [], 'about': ''}
+
+    f = open('static/greeter/about.textile', 'r')
+    context['about'] = f.read()
+    f.close()
     
     jobs = sorted(glob.glob('static/greeter/jobs/*'), reverse=True)
     for file in jobs:

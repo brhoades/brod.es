@@ -40,6 +40,51 @@
   </div>
 </header>
 
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>About</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="about">
+          {% autoescape off %}
+            {{ about|textile }}
+          {% endautoescape %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Projects Section  -->
+<section id="projects" class="success">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="text-center">Projects</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        {% autoescape off %}
+        {% for project in projects %}
+          <div class="project">
+            {{ project|textile }}
+          </div>
+        {% endfor %}
+        {% endautoescape %}
+      </div>
+    </div>
+    <div class="row">
+    </div>
+  </div>
+</section>
+
 <!-- Experience Section -->
 <section id="experience">
   <div class="container">
@@ -68,47 +113,6 @@
 
     </div>
     <div class="row">
-    </div>
-  </div>
-</section>
-
-<!-- Projects Section  -->
-<section id="projects" class="success">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2 class="text-center">Projects</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        {% autoescape off %}
-        {% for project in projects %}
-          <div class="project">
-            {{ project|textile }}
-          </div>
-        {% endfor %}
-        {% endautoescape %}
-      </div>
-    </div>
-    <div class="row">
-    </div>
-  </div>
-</section>
-
-<!-- About Section -->
-<section id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>About</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-lg-offset-2">
-      </div>
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-      </div>
     </div>
   </div>
 </section>
