@@ -6,8 +6,8 @@
 
 <div class="clear"></div> 
 
-<div class="job-description">
-Developed a closed-source program in C for testing Corvette instrument panels. The program manually handled a display with a poorly documented API, 4 buttons, and custom written features such as menu navigation, test feedback, and clean state transition. This program ran on a PIC16F1789 with 28 KB of memory, 2 KB of RAM, a 160x128 display, and 4 buttons.
+<div class="job-description indent">
+Developed a closed-source program in C for testing Corvette instrument panels. The program manually handled a display with features such as menu navigation, test feedback, and clean state transition. This program ran on a PIC16F1789 with 28 KB of memory, 2 KB of RAM, a 160x128 display, and 4 buttons.
 </div>
 
 <div class="clear"></div> 

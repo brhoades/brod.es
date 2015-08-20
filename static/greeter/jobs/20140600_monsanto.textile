@@ -6,6 +6,8 @@
 
 <div class="clear"></div>
 
+<div class="job-description">
 * Developed <a href="https://github.com/brhoades/selenium_wrapper">Selenium Wrapper</a> for performance testing internal sites
 * Collaborated with a hackathon team to make a web-based idea board
 * Created a dashing-based dashboard to monitor SalesForce and AWS cloud status
+</div>

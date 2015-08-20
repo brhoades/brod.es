@@ -6,8 +6,10 @@
 
 <div class="clear"></div> 
 
+<div class="job-description">
 * Packaged and maintained Perl applications 
 * Used Microsoft SCCM for software and OS deployments to over 4,000 machines
 * Created custom Windows 7 builds for campus hardware
 * Maintained license servers for academic applications
+</div>
 

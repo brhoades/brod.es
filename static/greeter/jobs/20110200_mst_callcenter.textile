@@ -6,6 +6,8 @@
 
 <div class="clear"></div> 
 
+<div class="job-description">
 * Responsible for coordinating and scheduling appointments with customers
 * Called on to assist professors as a first contact
 * Tasked with assisting staff and faculty remotely and in person
+</div>

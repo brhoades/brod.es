@@ -210,6 +210,11 @@ section.success {
     background: #C85A17;
 }
 
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -351,6 +356,11 @@ footer .footer-below {
 }
 
 #experience .job-description
+{
+  max-width: 900px;
+}
+
+#experience .indent
 {
   padding-left: 30px;
 }

@@ -6,7 +6,9 @@
 
 <div class="clear"></div>  
 
+<div class="job-description">
 * Coordinated and conducted meetings for more than 20 CTS students
 * Made and maintained procedural reference material
 * Trained, supervised, and coordinated time off for service desk student workers
 * Kept and recorded CTS student schedules across all teams
+</div>

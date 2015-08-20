@@ -6,4 +6,6 @@
 
 <div class="clear"></div> 
 
+<div class="job-description">
 * Graded programming assignments for the Intro to C++ course
+</div>

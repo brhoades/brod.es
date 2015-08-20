@@ -6,7 +6,9 @@
 
 <div class="clear"></div> 
 
+<div class="job-description">
 * Graded homework assignments for Object Oriented Numerical Modeling
 * Served as sole point of contact for all programming questions
 * Held office hours to answer questions
 * Lectured on a few topics, including CRTP / static polymorphism, virtual memory management, and C++11/C++14 features
+</div>
