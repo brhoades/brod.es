@@ -6,6 +6,6 @@
 
 <div id="clear"></div>
 
-* Developed a wrapper for performance testing internal sites with Selenium
+* Developed <a href="https://github.com/brhoades/selenium_wrapper">Selenium Wrapper</a> for performance testing internal sites
 * Collaborated with a hackathon team to make a web-based idea board
-* Created a dashing dashboard to monitor SalesForce and AWS cloud status
+* Created a dashing-based dashboard to monitor SalesForce and AWS cloud status

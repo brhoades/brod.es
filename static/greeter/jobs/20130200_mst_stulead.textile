@@ -1,6 +1,6 @@
 <div id="job-title">Student Lead / Mentor</div>
 
-<div id="company">Missouri S&T IT Campus Tech. Support</div>
+<div id="company">Missouri S&T - IT Campus Tech. Support</div>
 
 <div id="timeline">February 2013 - May 2013</div>
 

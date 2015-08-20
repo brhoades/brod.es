@@ -1,6 +1,6 @@
 <div id="job-title">Student Support Analyst</div>
 
-<div id="company">Missouri S&T IT - Help Desk</div>
+<div id="company">Missouri S&T - IT - Help Desk</div>
 
 <div id="timeline">February 2011 - May 2013</div>
 

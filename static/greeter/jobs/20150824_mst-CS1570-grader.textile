@@ -1,0 +1,9 @@
+<div id="job-title">Grader</div>
+
+<div id="company">Missouri S&T - CS1570 / CS53</div>
+
+<div id="timeline">August 2015 - December 2015</div>
+
+<div id="clear"></div> 
+
+* Graded programming assignments for the Intro to C++ course
