@@ -409,6 +409,8 @@ footer .footer-below {
   font-size: 17px;
   display: inline-block;
   padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #projects .outline {

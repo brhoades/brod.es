@@ -18,7 +18,7 @@ def index(request):
         f = open(file, 'r')
         context['jobs'].append(f.read())
 
-    projects = sorted(glob.glob('static/greeter/projects/*'), reverse=True)
+    projects = sorted(glob.glob('static/greeter/projects/*'), reverse=False)
     for file in projects:
         f = open(file, 'r')
         context['projects'].append(f.read())

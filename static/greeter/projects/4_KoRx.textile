@@ -1,0 +1,4 @@
+<div class="project-name">KoRx</div> <a class="outline" href="https://github.com/brhoades/korx"><i class="fa fa-github icon"></i></a>
+<div class="project-desc">
+KoRx was a mod of <a href="http://tremulous.net/">Tremulous</a>, which in turn was a mod of ioquake3. Tremulous was a game in which humans fight against aliens in a FPS-style, but with a RTS twist. With the help of 3 team members, I was the project manager and head programmer for the project. Initially KoRx started as a mod to fix some bugs and things that bothered me, as can be seen <a href="https://code.google.com/p/korx/wiki/Update_1_Differences">here</a> and then it slowly transformed into a recognizable and unique game type. Around 2010, along with the demise of Tremulous, KoRx ceased development.
+</div>

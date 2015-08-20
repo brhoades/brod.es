@@ -1,0 +1,4 @@
+<div class="project-name">Selenium Wrapper</div> <a class="outline" href="https://github.com/brhoades/selenium_wrapper"><i class="fa fa-github icon"></i></a>
+<div class="project-desc">
+Selenium Wrapper is a Python wrapper around the <a href="http://www.seleniumhq.org/">Selenium web testing framework</a>. Selenium Wrapper was created as part of my co-op with Monsanto to assist my team in load testing websites where WebLOAD was not properly recording all data. This project wraps many headless PhantomJS instances to run a recorded and converted script to load test a website. The instances of Selenium Wrapper can then be configured to report upstream to Splunk, which aggregates and reports data. More details <a href="http://brhoades.github.io/selenium_wrapper/">here</a>.
+</div>
