@@ -31,7 +31,8 @@ h3,
 h4,
 h5,
 h6,
-.job-title {
+.job-title,
+.project-name {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 17px;
@@ -406,12 +407,50 @@ footer .footer-below {
 #projects .project-name
 {
   font-size: 17px;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+#projects .outline {
+    border-radius: 100%;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+#projects .outline:hover,
+#projects .outline:focus,
+#projects .outline:active,
+#projects .outline.active, 
+#projects .icon:hover,
+#projects .icon:focus,
+#projects .icon:active,
+#projects .icon.active 
+{
+    border-radius: 100%;
+    color: #C85A17;
+    background: #fff;
+}
+
+#projects .icon
+{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  transition: all .3s ease-in-out;
+  position: relative;
+  left: -1px;
+  bottom: -0.5px;
 }
 
 #projects .project-desc
 {
   padding-left: 15px;
 }
+
 
 #projects.clear
 {
