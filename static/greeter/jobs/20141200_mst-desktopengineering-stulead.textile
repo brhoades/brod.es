@@ -2,7 +2,7 @@
 
 <div class="company">Missouri S&T - IT - Desktop Infrastructure</div>
 
-<div class="timeline">December 2014 - Present</div>
+<div class="timeline">December 2014 - November 2015</div>
 
 <div class="clear"></div> 
 
