@@ -5,35 +5,29 @@
 
 {% block content %}
 <!-- Header -->
-{% include "greeter/header.html" %}
+{% include "greeter/header_subpage.html" %}
 
-<!-- About Section -->
 <section id="about">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>About</h2>
+        <h2>CS5201</h2>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <div id="about">
-          {% autoescape off %}
-            {{ about|textile }}
-          {% endautoescape %}
-        </div>
+        Coming Soon
       </div>
     </div>
   </div>
 </section>
-
 
 <!-- Projects Section  -->
 <section id="projects" class="success">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h2 class="text-center">Projects</h2>
+        <h2 class="text-center"></h2>
       </div>
     </div>
     <div class="row">
@@ -52,45 +46,12 @@
   </div>
 </section>
 
-<!-- Experience Section -->
-<section id="experience">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2 class="text-center">Experience</h2>
-        <br />
-
-      
-        {% autoescape off %}
-        {% for job in jobs %}
-          <div class="job">
-            {{ job|textile }}
-          </div>
-        {% endfor %}
-        {% endautoescape %}
-        <!--
-          <div class="job-title">
-          </div>
-          <div class="job-time">
-          </div>
-          <div class="job-company">
-          </div>
-        --!>
-
-
-    </div>
-    <div class="row">
-    </div>
-  </div>
-</section>
-
 <!-- Footer -->
 <footer class="text-center">
   <div class="footer-above">
     <div class="container">
       <div class="row">
         <div class="footer-col col-md-4">
-          <a href="http://resume.brod.es/">Resume</a>
         </div>
         <div class="footer-col col-md-4">
         </div>

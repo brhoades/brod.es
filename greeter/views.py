@@ -4,7 +4,6 @@ from django.template import RequestContext, loader
 
 import glob
 
-# Create your views here.
 def index(request):
     template = loader.get_template('greeter/index.html')
     context = {'jobs': [], 'projects': [], 'about': ''}
@@ -22,6 +21,13 @@ def index(request):
     for file in projects:
         f = open(file, 'r')
         context['projects'].append(f.read())
+
+    context = RequestContext(request, context)
+    return HttpResponse(template.render(context))
+
+def cpp(request):
+    template = loader.get_template('greeter/class.html')
+    context = {}
 
     context = RequestContext(request, context)
     return HttpResponse(template.render(context))

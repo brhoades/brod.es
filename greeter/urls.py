@@ -3,4 +3,5 @@ from greeter import views
 
 urlpatterns = patterns('',
     url(r'^$', views.index),
+    url(r'^5201$', views.cpp)
 )

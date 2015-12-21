@@ -24,7 +24,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = ["cs3100.brod.es"]
+ALLOWED_HOSTS = ["brod.es"]
 
 
 # Application definition
