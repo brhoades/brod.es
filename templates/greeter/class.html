@@ -7,42 +7,19 @@
 <!-- Header -->
 {% include "greeter/header_subpage.html" %}
 
-<section id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>CS5201</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        Coming Soon
-      </div>
-    </div>
+<section class="row padded-container">
+  <div class="col-lg-12 text-left">
+    <h2>CS5201</h2>
   </div>
-</section>
-
-<!-- Projects Section  -->
-<section id="projects" class="success">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2 class="text-center"></h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        {% autoescape off %}
-        {% for project in projects %}
-          <div class="project">
-            {{ project|textile }}
-          </div>
-        {% endfor %}
-        {% endautoescape %}
-      </div>
-    </div>
-    <div class="row">
-    </div>
+  <div class="col-lg-9">
+    Coming Soon
+  </div>
+  <div class="col-lg-3 reference-section">
+    <h3>Reference</h3>
+    <ul class="reference">
+      <li>Git</li>
+      <li>Coding Standards</li>
+    </ul>
   </div>
 </section>
 
@@ -51,10 +28,6 @@
   <div class="footer-above">
     <div class="container">
       <div class="row">
-        <div class="footer-col col-md-4">
-        </div>
-        <div class="footer-col col-md-4">
-        </div>
       </div>
     </div>
   </div>
