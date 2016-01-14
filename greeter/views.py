@@ -25,9 +25,26 @@ def index(request):
     context = RequestContext(request, context)
     return HttpResponse(template.render(context))
 
-def cpp(request):
+def cpp(request, page):
     template = loader.get_template('greeter/class.html')
-    context = {}
+    context = {'content': page}
+
+    if page == '':
+        context['title'] = "CS5201"
+        context['content'] = \
+            """
+            Office: TBA<br />
+            Office hours: TBD<br />
+            <br />
+            Email: <a href="mailto:bjrq48@mst.edu">bjrq48@mst.edu</a><br />
+            <iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23C85A17&amp;src=bjrq48%40mst.edu&amp;ctz=America%2FChicago" style="border-width:0" width="600" height="600" frameborder="0" scrolling="no"></iframe>
+            """
+    elif page == 'avoid':
+        context['title'] = "CS5201 - Things to Avoid"
+        context['content'] = \
+            """
+            Avoid this!
+            """
 
     context = RequestContext(request, context)
     return HttpResponse(template.render(context))

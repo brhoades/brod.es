@@ -9,16 +9,29 @@
 
 <section class="row padded-container">
   <div class="col-lg-12 text-left">
-    <h2>CS5201</h2>
+    <h2>{{ title }}</h2>
   </div>
-  <div class="col-lg-9">
-    Coming Soon
+  <div class="col-lg-8 text-left">
+    {% autoescape off %}
+      {{ content|textile }}
+    {% endautoescape %}
   </div>
-  <div class="col-lg-3 reference-section">
-    <h3>Reference</h3>
+  <div class="col-lg-4 reference-section">
+  <h3>Reference</h3>
+    <div class="short-border"></div>
+    <h4>Course</h4>
+    <ul class="reference">
+      <li><a href="https://sites.google.com/a/mst.edu/price/courses/cs-5201">Website</a></li>
+      <li><a href="/5201/avoid">Things to Avoid</a></li>
+    </ul>
+    <h4>C++</h4>
+    <ul class="reference">
+      <li><a href="http://web.mst.edu/~cpp/cpp_coding_standard_v1_1.pdf">Coding Standard</a></li>
+      <li><a href="http://web.mst.edu/~nmjxv3/articles/templates.html">Template Classes and Friends</a></li>
+    </ul>
+    <h4>Linux</h4>
     <ul class="reference">
       <li>Git</li>
-      <li>Coding Standards</li>
     </ul>
   </div>
 </section>

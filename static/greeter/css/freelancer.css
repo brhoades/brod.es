@@ -39,6 +39,13 @@ h6,
     font-weight: 700;
 }
 
+h4,
+h5,
+h6 {
+  font-size: 15px;
+    font-weight: 600;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -480,8 +487,9 @@ footer .footer-below {
 
 .padded-container
 {
-  max-width: 850px;
+  max-width: 1000px;
   margin: 0 auto;
+  padding-top: 50px; /* override */
   min-height: 850px;
 }
 
@@ -491,7 +499,11 @@ footer .footer-below {
   padding-left: 20px;
 }
 
-.reference-section
+.short-border
 {
   border-left: 1px solid;
+  position: absolute;
+  left: 0px;
+  top: 15%;
+  bottom: 10%;
 }
