@@ -79,7 +79,7 @@ def cpp(request, page):
         context['title'] = "CS5201 - Git"
         context['content'] = \
             """
-            <h4>Overview</h4>
+            <h3>Overview</h3>
             <p>
             In SP2016, you can now opt-in to using Git instead of cssubmit for assignment submission. A repository will be created for
             you when each assignment appears, along with an email. You do not need to wait for the repository in order to begin;
@@ -91,7 +91,7 @@ def cpp(request, page):
             </p>
             <br />
 
-            <h4>Enrollment and Incentives</h4>
+            <h3>Enrollment and Incentives</h3>
             <p>Please mention during the first day of class that you are interested. There will be a sign-up sheet passed around. 
             <strong>You must have logged into GitLab previously in order for a repository to be created for you</strong>. I will be very upset
             if you sign up but do not log in first. Very. Upset.
@@ -103,7 +103,7 @@ def cpp(request, page):
             Git is <a href="http://stackoverflow.com/research/developer-survey-2015#tech-sourcecontrol">the most popular version control system</a> and very relevant.</p>
             <br />
 
-            <h4>Warning - Not for All Ages</h4>
+            <h3>Warning - Not for All Ages</h3>
             <p>Using Git won't be without risks. If you do one of the things listed below (or find a new, more creative thing), then you can either make a late submission or take a zero.</p>
             
             <p>
@@ -131,7 +131,7 @@ def cpp(request, page):
             </p>
             <br />
 
-            <h4><a href="https://xkcd.com/1597/">Useful Material</a></h4>
+            <h3><a href="https://xkcd.com/1597/">Useful Material</a></h3>
             <ul>
                 <li><a href="http://www.git-tower.com/learn/git/ebook/command-line/appendix/best-practices">General Best Practices for Git</a></li>
                 <li><a href="https://try.github.io/">Git Tutorial</a></li>
