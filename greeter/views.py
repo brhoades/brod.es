@@ -33,12 +33,18 @@ def cpp(request, page):
         context['title'] = "CS5201"
         context['content'] = \
             """
-            Email: <a href="mailto:bjrq48@mst.edu">bjrq48@mst.edu</a><br />
-            If you need to meet with me, you can send an email to set up a time.
-            Please make sure it's in an available spot below.<br />
+            <h3>Contact</h3>
+            <p> I can answer any C++ or programming-like question you have with regards to the course. I will also handle any questions (or qualms) you have about submitting (including "How do I Git?") or grading. I prefer email for questions, but if you prefer another format, you can message me on IRC or set up a meeting with me. <strong>Do not wait until the night before an assignment is due to ask questions.</strong></p>
             <br />
             <br />
-            <iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23C85A17&amp;src=bjrq48%40mst.edu&amp;ctz=America%2FChicago" style="border-width:0" width="600" height="600" frameborder="0" scrolling="no"></iframe>
+
+            <strong>Email</strong>: <a href="mailto:bjrq48@mst.edu">bjrq48@mst.edu</a><br />
+            <strong>IRC</strong>: query brodes on <a href="https://webchat.freenode.net">irc.freenode.net</a>. Note that my response time will vary with how free I am.<br />
+            <strong>Meeting</strong>: by request. If you need to meet with me, you can send an email to set up a time.
+            Please make sure it is in an available spot below.<br />
+            <br />
+            <br />
+            <iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=bjrq48%40mst.edu&amp;color=%23853104&amp;ctz=America%2FChicago" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
             """
     elif page == 'watch':
         context['title'] = "CS5201 - Things to Watch"
@@ -53,20 +59,20 @@ def cpp(request, page):
                 <li>Check if you are leaking memory frequently.</li>
                 <li>Filenames for includes must match case with the file.</li>
                 <li>Practice <a href="http://web.mst.edu/~nmjxv3/articles/templates.html">safe templating</a>.</li>
-                <li>Name your variables things that make sense. Please don't name them after smurfs...</li>
+                <li>Name your variables things that make sense. Please do not name them after smurfs...</li>
                 <li>Your code should compile with g++, even if you use clang++.</li>
             </ul>
 
             <h3>UML</h3>
             <ul>
-                <li>If you can't figure out which arrow goes where, I can't either.</li>
+                <li>If you can not figure out which arrow goes where, I can not either.</li>
                 <li>Your handout should be legibly sized.</li>
                 <li>Parameter names are optional but encouraged.</li>
             </ul>
 
             <h3>Makefile</h3>
             <ul>
-                <li>It's "Makefile" not "Makefile.txt", the latter is a 0.</li>
+                <li>It is "Makefile" not "Makefile.txt", the latter is a 0.</li>
             </ul>
 
             <h3>Documentation</h3>
@@ -94,8 +100,8 @@ def cpp(request, page):
             <h3>Enrollment and Incentives</h3>
             <p>Please mention during the first day of class that you are interested. There will be a sign-up sheet passed around. 
             <strong>You must have logged into GitLab previously in order for a repository to be created for you</strong>. I will be very upset
-            if you sign up but do not log in first. Very. Upset.
-            Should you change your mind at some point, <a href="mailto:bjrq48@mst.edu">email me</a>, and I'll swap you between using Git/cssubmit</p>
+            if you sign up but do not log in first. Not as upset as you will be if you notice there is not a repository the night before submission, however.
+            Should you change your mind at some point, <a href="mailto:bjrq48@mst.edu">email me</a>, and I will swap you between using Git/cssubmit</p>
 
             <p>If you use Git properly (see the links and lists at the bottom) I will attempt to comment on blatant errors, bad formatting, typos, etc within GitLabs. Regardless of
             how well you use it, it counts as a submission. I do, however, reserve the right to choose when commenting is worth my time--- I have a lot of assignments to grade, and not all day to debug your code. 
@@ -104,7 +110,7 @@ def cpp(request, page):
             <br />
 
             <h3>Warning - Not for All Ages</h3>
-            <p>Using Git won't be without risks. If you do one of the things listed below (or find a new, more creative thing), then you can either make a late submission or take a zero.</p>
+            <p>Using Git will not be without risks. If you do one of the things listed below (or find a new, more creative thing), then you can either make a late submission or take a zero.</p>
             
             <p>
             Here are a few ways to consider messing this up:
@@ -125,9 +131,6 @@ def cpp(request, page):
                 <li>Commit not often enough</li>
                 <li>Commit with messages like "new code" or "update"</li>
               </ul>
-            </p>
-            <p>
-              Notice that commit too frequently is not on this list. Also, both of these lists are not exhaustive--- if you find a new way to mess this up, please let me know so I can add it.
             </p>
             <br />
 
