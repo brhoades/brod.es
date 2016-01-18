@@ -46,8 +46,8 @@ def cpp(request, page):
             <br />
             <iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=bjrq48%40mst.edu&amp;color=%23853104&amp;ctz=America%2FChicago" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
             """
-    elif page == 'watch':
-        context['title'] = "CS5201 - Things to Watch"
+    elif page == 'tips':
+        context['title'] = "CS5201 - Assignment Tips"
         context['content'] = \
             """
             <p>For my sanity, I have included a (non-exhaustive) list of things to watch. I highly recommend walking through this before each submission,
