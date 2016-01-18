@@ -484,15 +484,6 @@ footer .footer-below {
 /*********
  * sidebar
  ********/
-
-.padded-container
-{
-  max-width: 1000px;
-  margin: 0 auto;
-  padding-top: 50px; /* override */
-  min-height: 850px;
-}
-
 .reference
 {
   list-style-type: none;
@@ -506,4 +497,26 @@ footer .footer-below {
   left: 0px;
   top: 15%;
   bottom: 10%;
+}
+
+/***************
+ * Class Containers
+ **************/
+
+.padded-container
+{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px; /* override */
+  min-height: 850px;
+}
+
+.class-content h4
+{
+  font-size: 25px;
+}
+
+.class-content ul
+{
+  font-size: 20px;
 }

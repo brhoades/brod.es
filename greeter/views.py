@@ -104,11 +104,10 @@ def cpp(request, page):
             <br />
 
             <h4>Warning - Not for All Ages</h4>
-            <p>Using Git won't be without risks. If you do one of the things listed below (or find a new, more creative thing), then you can either make a late submission or take a zero. 
-            Keep in mind, you can screw up with cssubmit too.</p>
+            <p>Using Git won't be without risks. If you do one of the things listed below (or find a new, more creative thing), then you can either make a late submission or take a zero.</p>
             
             <p>
-            Here are a few ways to consider screwing this up:
+            Here are a few ways to consider messing this up:
             <ul>
               <li>Use a nonmaster branch</li>
               <li>Never push</li>
