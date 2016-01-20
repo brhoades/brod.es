@@ -83,6 +83,12 @@ def cpp(request, page):
             </ul>
             """
     else:
+        """
+            <p>On the first homework, I will give some slight leeway for mistakes with Git. As this is the first semester 5201 is doing this, I will, at my discretion,
+            wave any easy mistakes. For example, if you did not push properly, I will email you when I notice. If you respond quickly, I will allow you to push to make up this
+            mistake without a late grade. Note that your commit timestamps for a late push must still be before the deadline. This is nonrefundable and does not roll over.</p>
+            <br />
+        """
         context['title'] = "CS5201 - Git"
         context['content'] = \
             """
@@ -92,25 +98,37 @@ def cpp(request, page):
             you when each assignment appears, you will recieve an email when this happens. You do not need to wait for the repository in order to begin;
             use a local Git repository and simply push when your graded one is available.</p>
 
-            <p>At the very least, before the assignment deadline, push to the repositories. Although you can push afterwards, I will arbitrarily choose when to clone all
-            the repositories. The date of the last commit will be used to determine if the submission was late. <strong>Should you decide to take a late grade, you must notify me
-            if it is after the deadline.</strong> The repositories will be through our internal Missouri S&T <a href="http://git.mst.edu/">GitLab server here</a>.</p>
+            <p>At the very least, before the assignment deadline, push to your graded repository. Although you can push afterwards, the repositories will be cloned very close to the deadline time
+            . The date of the last commit will be used to determine if the submission was late. <strong>Should you decide to take a late submission, you must notify me
+            if it is after the deadline.</strong> Your repository will be through our internal Missouri S&T <a href="http://git.mst.edu/">GitLab server here</a>.</p>
 
-            <p>On the first homework, I will give some slight leeway for mistakes with Git. As this is the first semester 5201 is doing this, I will, at my discretion,
-            wave any easy mistakes. For example, if you did not push properly, I will email you when I notice. If you respond quickly, I will allow you to push to make up this
-            mistake without a late grade. Note that your commit timestamps for a late push must still be before the deadline. This is nonrefundable and does not roll over.</p>
-            <br />
-
-            <h3>Enrollment and Incentives</h3>
+            <h3>Enrollment</h3>
             <p>Please mention during the first day of class that you are interested. There will be a sign-up sheet passed around. 
             <strong>You must have logged into GitLab previously in order for a repository to be created for you</strong>. I will be very upset
-            if you sign up but do not log in first. Not as upset as you will be if you notice there is not a repository the night before submission, however.
+            if you sign up but do not log in before HW1 is assigned. However, I will not as upset as you will be if you notice there is not a repository the night of the deadline.
             Should you change your mind at some point, <a href="mailto:bjrq48@mst.edu">email me</a>, and I will swap you between using Git/cssubmit</p>
 
-            <p>If you use Git properly (see the links and lists at the bottom) I will attempt to comment on blatant errors, bad formatting, typos, etc within GitLabs. Regardless of
-            how well you use it, it counts as a submission. I do, however, reserve the right to choose when commenting is worth my time--- I have a lot of assignments to grade, and not all day to debug your code. 
-            Additionally, I will comment on your Git usage on your gradesheet. As a final incentive, you get to practice with Git. For those going into Software Development,
-            Git is <a href="http://stackoverflow.com/research/developer-survey-2015#tech-sourcecontrol">the most popular version control system</a> and very relevant.</p>
+            <h3>Incentives</h3>
+            <p>
+            If you use Git properly (see the links at the bottom), I will attempt to:
+            <ul>
+            <li>Point out blatant errors</li>
+            <li>Highlight bad formatting and typos</li>
+            <li>Show memory leaks</li>
+            </ul>
+            </p>
+            
+            <p>
+            <a href="https://git.mst.edu/2016-Spring-CS-5201/example-project/commit/1d06b15e6117399e9e48abe7a326f642d8326300#480c7311fa6fa6862746188df2f659fad53f5f29_0_13">Here is an example of comments I could make.</a> Regardless of
+            how well you use it, your repository counts as a submission. I do, however, reserve the right to choose when commenting is worth my time--- I have a lot of assignments to grade, and not all day to debug your code.
+            Here are benefits you will receieve regardless of how well you use Git:
+            <ul>
+             <li>I will comment on your Git usage on your gradesheet</li>
+             <li>You get to practice. For those going into Software Development,
+            Git is <a href="http://stackoverflow.com/research/developer-survey-2015#tech-sourcecontrol">the most popular version control system</a> and very relevant</li>
+            <li>You do not need to use PuTTY or VPN in to campus to submit</li>
+            </ul>
+            </p>
             <br />
 
             <h3>Late Submissions</h3>
@@ -119,6 +137,7 @@ def cpp(request, page):
             if you didn't have a blank repository at the deadline. I recommend you email me either way, to be safe.
             </p>
 
+            <br />
             <h3>Warning - Not for All Ages</h3>
             <p>Using Git will not be without risks. If you do one of the things listed below (or find a new, more creative thing), then you can either make a late submission or take a zero.</p>
             
