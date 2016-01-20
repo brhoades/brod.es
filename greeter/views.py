@@ -99,7 +99,7 @@ def cpp(request, page):
             use a local Git repository and simply push when your graded one is available.</p>
 
             <p>At the very least, before the assignment deadline, push to your graded repository. Although you can push afterwards, the repositories will be cloned very close to the deadline time
-            . The date of the last commit will be used to determine if the submission was late. <strong>Should you decide to take a late submission, you must notify me
+            . The date of the last commit will be used to determine if the submission was late. <strong>Should you decide to make a late submission, you must notify me
             if it is after the deadline.</strong> Your repository will be through our internal Missouri S&T <a href="http://git.mst.edu/">GitLab server here</a>.</p>
 
             <h3>Enrollment</h3>
@@ -121,7 +121,7 @@ def cpp(request, page):
             <p>
             <a href="https://git.mst.edu/2016-Spring-CS-5201/example-project/commit/1d06b15e6117399e9e48abe7a326f642d8326300#480c7311fa6fa6862746188df2f659fad53f5f29_0_13">Here is an example of comments I could make.</a> Regardless of
             how well you use it, your repository counts as a submission. I do, however, reserve the right to choose when commenting is worth my time--- I have a lot of assignments to grade, and not all day to debug your code.
-            Here are benefits you will receieve regardless of how well you use Git:
+            Here are benefits you will always have:
             <ul>
              <li>I will comment on your Git usage on your gradesheet</li>
              <li>You get to practice. For those going into Software Development,
@@ -168,6 +168,7 @@ def cpp(request, page):
                 <li><a href="http://www.git-tower.com/learn/git/ebook/command-line/appendix/best-practices">General Best Practices for Git</a></li>
                 <li><a href="https://try.github.io/">Git Tutorial</a></li>
                 <li><a href="https://git-scm.com/download/win">Official Windows Git client</a></li>
+                <li><a href="http://cpl.mwisely.xyz/submitting/#tocAnchor-1-1">CS2001 Git Submission Guide</a> (submit.txt is not used)
             </ul>
 
             """
