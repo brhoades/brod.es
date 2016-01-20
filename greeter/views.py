@@ -60,7 +60,8 @@ def cpp(request, page):
                 <li>Filenames for includes must match case with the file.</li>
                 <li>Practice <a href="http://web.mst.edu/~nmjxv3/articles/templates.html">safe templating</a>.</li>
                 <li>Name your variables things that make sense. Please do not name them after smurfs...</li>
-                <li>Your code should compile with g++, even if you use clang++.</li>
+                <li>Your code should compile with g++, even if you use clang++ or Visual Studio.</li>
+                <li>I do not grade in an IDE. Make sure your code looks good when you cat your files.</li>
             </ul>
 
             <h3>UML</h3>
@@ -88,13 +89,16 @@ def cpp(request, page):
             <h3>Overview</h3>
             <p>
             In SP2016, you can now opt-in to using Git instead of cssubmit for assignment submission. A repository will be created for
-            you when each assignment appears, along with an email. You do not need to wait for the repository in order to begin;
+            you when each assignment appears, you will recieve an email when this happens. You do not need to wait for the repository in order to begin;
             use a local Git repository and simply push when your graded one is available.</p>
 
             <p>At the very least, before the assignment deadline, push to the repositories. Although you can push afterwards, I will arbitrarily choose when to clone all
-            the repositories. The date of the last commit will be used to determine if the submission was late. The repositories will be through
-            our internal Missouri S&T <a href="http://git.mst.edu/">GitLab server here</a>.
-            </p>
+            the repositories. The date of the last commit will be used to determine if the submission was late. <strong>Should you decide to take a late grade, you must notify me
+            if it is after the deadline.</strong> The repositories will be through our internal Missouri S&T <a href="http://git.mst.edu/">GitLab server here</a>.</p>
+
+            <p>On the first homework, I will give some slight leeway for mistakes with Git. As this is the first semester 5201 is doing this, I will, at my discretion,
+            wave any easy mistakes. For example, if you did not push properly, I will email you when I notice. If you respond quickly, I will allow you to push to make up this
+            mistake without a late grade. Note that your commit timestamps for a late push must still be before the deadline. This is nonrefundable and does not roll over.</p>
             <br />
 
             <h3>Enrollment and Incentives</h3>
@@ -108,6 +112,12 @@ def cpp(request, page):
             Additionally, I will comment on your Git usage on your gradesheet. As a final incentive, you get to practice with Git. For those going into Software Development,
             Git is <a href="http://stackoverflow.com/research/developer-survey-2015#tech-sourcecontrol">the most popular version control system</a> and very relevant.</p>
             <br />
+
+            <h3>Late Submissions</h3>
+            <p>
+            Late submissions will be cumbersome. I will not check the repositories by hand after the deadline unless you have not pushed at all. You must email me to tell me you wish to resubmit 
+            if you didn't have a blank repository at the deadline. I recommend you email me either way, to be safe.
+            </p>
 
             <h3>Warning - Not for All Ages</h3>
             <p>Using Git will not be without risks. If you do one of the things listed below (or find a new, more creative thing), then you can either make a late submission or take a zero.</p>
