@@ -1,0 +1,10 @@
+<div class="job-title">Software Engineer</div>
+
+<div class="company">Cerner Corporation</div>
+
+<div class="timeline">June 2016 - Present</div>
+
+<div class="clear"></div> 
+
+<div class="job-description">
+</div>
