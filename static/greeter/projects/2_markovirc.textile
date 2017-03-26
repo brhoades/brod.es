@@ -1,0 +1,4 @@
+<div class="project-name">Markovirc "Marko"</div> <a class="outline" href="https://github.com/linuxmercedes/markovirc"><i class="fa fa-github icon"></i></a>
+<div class="project-desc">
+Marko is an IRC bot in Ruby that uses Markov Chains to generate text which appears human written. It gathers its source text from any channel it sits in, leading to humerous messages or drivel depending on quality. Markovirc drew deep inspiration from another IRC bot, <a href="https://github.com/allanlw/seeborg">SeeBorg</a>. Core logic from Marko has been separated into a gem <a href="https://github.com/brhoades/markov_speech">here</a>.
+</div>

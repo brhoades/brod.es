@@ -1,5 +1,4 @@
 django
-django-fontawesome
 django-markwhat
 markdown
 textile
