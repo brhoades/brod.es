@@ -1,5 +1,4 @@
 {% load staticfiles %}
-{% load fontawesome %}
 {% load markup %}
 
 <header>
@@ -9,28 +8,23 @@
         <img class="img-responsive profile" src="{% static "greeter/img/profile.png" %}" alt="">
         <div class="intro-text">
           <span class="name">Billy Rhoades</span>
-          <span class="skills">Student - Software Developer</span>
+          <span class="skills">Software Developer - Web Designer</span>
           <span class="col-md-4 social">
             <ul class="list-inline">
               <li>
-                <a href="https://www.facebook.com/billy.rhoades.54" class="btn-social btn-outline">
-                  {% fontawesome_icon 'facebook' %}</a>
+                <a href="https://www.linkedin.com/pub/billy-rhoades/58/a9a/615" class="btn-social btn-outline">
+                  <i class="fa fa-linkedin icon"></i>
+                </a>
               </li>
               <li>
-              <a href="https://www.linkedin.com/pub/billy-rhoades/58/a9a/615" class="btn-social btn-outline">
-                  {% fontawesome_icon 'linkedin' %}</a>
-              </li>
-              </li>
-              <li>
-              <a href="https://github.com/brhoades" class="btn-social btn-outline">
-                  {% fontawesome_icon 'github' %}</a>
+                <a href="https://github.com/brhoades" class="btn-social btn-outline">
+                  <i class="fa fa-github icon"></i>
+                </a>
               </li>
               <li>
-              <a href="mailto:billyarhoades@gmail.com" class="btn-social btn-outline">
-                  {% fontawesome_icon 'envelope' %}</a>
-              </li>
-              <a href="/5201" class="btn-social btn-outline" alt="CS5201">
-                  {% fontawesome_icon 'graduation-cap' %}</a>
+                <a href="mailto:billyarhoades@gmail.com" class="btn-social btn-outline">
+                  <i class="fa fa-envelope icon"></i>
+                </a>
               </li>
             </ul>
           </span>
