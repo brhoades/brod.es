@@ -1,8 +1,5 @@
 @import 'variables';
 
-html {
-}
-
 body {
     font-family: 'Raleway', sans-serif;
     color: @text-color;
@@ -19,23 +16,24 @@ body {
 }
 
 
-.header-viewport {
-}
-
 .header {
     width: 100%;
-    height: 80vh;
-    display: flex;
-
-    // background-image: url("../img/header5.png");
-    background-color: @primary-block-color;
+    height: 600px;
+    background-image: url("../img/header.png");
     background-size: cover;
-    background-position-x: center;
-    // transform: translateZ(-1px) scale(2);
-    // z-index: -1;
+    background-position-y: center;
+
+    > .background {
+        max-width: 1000px;
+        margin: 0 auto;
+        height: 100%;
+    }
+
     h3 {
         margin: 0 auto;
+        padding-top: 50px;
         display: block;
+        vertical-align: center;
         text-transform: uppercase;
         font-weight: 700;
         text-align: center;
@@ -52,5 +50,5 @@ body {
 }
 
 .block > * {
-    max-width: 1000;
+    max-width: 1000px;
 }

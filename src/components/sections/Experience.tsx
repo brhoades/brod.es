@@ -168,7 +168,7 @@ export default () => (
     </ExperienceSubsection>
     <ExperienceSubsection
       title="Student Support Analyst"
-      company="Missouri S&T - IT Help Desk"
+      company="Missouri S&T - IT - Help Desk"
       range="Feburary 2011 - May 2013"
     >
       <ul>

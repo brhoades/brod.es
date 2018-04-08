@@ -10,11 +10,13 @@ interface ExperienceSubsectionPropType {
 export default (props: ExperienceSubsectionPropType) => (
   <div className="subsection">
     <div className="title">
-      <h4>{props.title}</h4>
-      <div className="details">
-        <div>{props.company}</div>
-        <div>{props.range}</div>
+      <div className="title-group">
+        <h4>{props.title}</h4>
       </div>
+    </div>
+    <div className="details">
+      <div>{props.company}</div>
+      <div>{props.range}</div>
     </div>
     <div>{props.children}</div>
   </div>
