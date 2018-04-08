@@ -7,7 +7,7 @@ export default () => (
     <ExperienceSubsection
       title="Associate Senior Software Engineer"
       company="Cerner Corporation - HealtheIntent - Consumer"
-      range="June 2016"
+      range="June 2016 -"
     >
       <ul>
         <li>
@@ -23,10 +23,13 @@ export default () => (
           Converted Clipboards, a set of configurable online forms that can be filled out prior to visiting a doctor's office, from Django forms to React
         </li>
         <li>
+          Deployed and containerized Patient Portal to EC2 using Spinnaker and Chef
+        </li>
+        <li>
           Developed a React profile page with redux-form that allows users (patients and family) to update their information in one spot
         </li>
         <li>
-          Mentored 8 people in DevAcademy: Cerner's multimonth Software Engineer onboarding program where mentors act as both trainers, mentors, and quasimanagers
+          Mentored 8 people in DevAcademy, Cerner's multimonth Software Engineer onboarding program where mentors act as both mentors and quasimanagers
         </li>
         <li>
           Wrote documentation for Django unit testing best practices that cover performance, reusability, and antipatterns
@@ -76,7 +79,7 @@ export default () => (
       company="batee.com"
       range="May 2015 - July 2015"
     >
-      <p>
+      <p style={{ paddingLeft: '40px' }}>
         Developed a closed-source program in C for testing Corvette instrument panels. The program manually handled a display with features such as menu navigation, test feedback, and clean state transition. This program ran on a PIC16F1789 with 28 KB of memory, 2 KB of RAM, a 160×128 display, and 4 buttons.
       </p>
     </ExperienceSubsection>
