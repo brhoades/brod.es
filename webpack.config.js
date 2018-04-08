@@ -21,42 +21,42 @@ module.exports = {
       {
         test: /\.tsx?$/,
         loader: [
-          {
-            loader: "babel-loader",
-            options: {
-              "cacheDirectory": "../.babel_cache",
-            },
-          },
+          "babel-loader",
           "ts-loader",
         ],
-        exclude: /node_modules|dist/,
+        exclude: /dist|node_modules/,
       },
       {
-        test: /\.(png|jpg|gif|svg)$/,
+        test: /\.(png|jpg|gif|svg|eot|woff2?|ttf)$/,
         loader: "file-loader",
-        exclude: /node_modules/,
         options: {
           name: "[name].[ext]",
         },
       },
       {
         test: /\.less$/,
+        exclude: /dist|node_modules/,
         use: [{
-          loader: "style-loader" // creates style nodes from JS strings
+          loader: "style-loader"
         }, {
-          loader: "css-loader" // translates CSS into CommonJS
+          loader: "css-loader"
         }, {
-          loader: "less-loader" // compiles Less to CSS
+          loader: "less-loader"
+        }],
+      },
+      {
+        test: /\.css$/,
+        exclude: /dist|node_modules/,
+        use: [{
+          loader: "style-loader"
+        }, {
+          loader: "css-loader"
         }],
       },
     ],
   },
   resolve: {
-    extensions: [".js", ".ts", ".tsx", ".less"],
-  },
-  devServer: {
-    historyApiFallback: true,
-    noInfo: true,
+    extensions: [".ts", ".tsx", ".js", ".jsx", ".less"],
   },
   devtool: "source-map",
   plugins: [
@@ -98,7 +98,4 @@ if (process.env.NODE_ENV === "production") {
       minimize: true,
     }),
   ])
-} else {
-  module.exports.plugins = (module.exports.plugins || []).concat([
-  ]);
 }

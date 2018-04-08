@@ -3,7 +3,7 @@ import * as React from 'react';
 const styles = require('../assets/less/block.less');
 
 interface BlockProps {
-  children: (string | JSX.Element)[];
+  children: ((string | JSX.Element)[] | string | JSX.Element);
   header?: JSX.Element|string;
 }
 
