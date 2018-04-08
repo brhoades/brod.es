@@ -29,6 +29,30 @@ const App = () => (
       block 2<br />
       block 2<br />
     </Block>
+    <Block header="About Me">
+      block 3<br />
+      block 3<br />
+      block 3<br />
+      block 3<br />
+      block 3<br />
+      block 3<br />
+      block 3<br />
+      block 3<br />
+      block 3<br />
+      block 3<br />
+    </Block>
+    <Block header="More">
+      block 4<br />
+      block 4<br />
+      block 4<br />
+      block 4<br />
+      block 4<br />
+      block 4<br />
+      block 4<br />
+      block 4<br />
+      block 4<br />
+      block 4<br />
+    </Block>
   </Layout>
 );
 

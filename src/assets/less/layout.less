@@ -1,27 +1,46 @@
 @import 'variables';
 
+html {
+}
+
 body {
+    max-width: 1000px;
     font-family: 'Raleway', sans-serif;
     color: @text-color;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transform-style: preserve-3d;
+    perspective: 1px;
+    perspective-origin: 0 0;
+    height: 100%;
+}
+
+
+.header-viewport {
 }
 
 .header {
     width: 100%;
-    min-height: 10rem;
-    height: 50vh;
+    height: 80vh;
+    display: flex;
 
-    background: @primary-block-color;
-    padding: 0.5rem;
+    background-image: url("../img/header5.png");
+    background-color: @primary-block-color;
+    background-size: cover;
+    background-position-x: center;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
     h3 {
+        margin: 0 auto;
         display: block;
         text-transform: uppercase;
         font-weight: 700;
         text-align: center;
-        font-size: 2rem;
+        font-size: 4.5rem;
     }
 }
 
