@@ -1,6 +1,0 @@
-django
-django-markwhat
-markdown
-textile
-docutils
-commonmark

@@ -1,4 +1,0 @@
-<div class="project-name">KoRPS - KoR Polling System</div>
-<div class="project-desc">
-KoRPS was the voting system using by Knights of Reason to introduce new members into the group. It was written in PHP with heavy Javascript/AJAX support around 2008. It integrates with phpBB to filter users and give them appropriate permissions. An unmaintained version is still up <a href="http://knightsofreason.net/?p=14"> here</a>.
-</div>
