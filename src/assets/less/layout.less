@@ -16,27 +16,63 @@ body {
 }
 
 
-.header {
-    width: 100%;
-    height: 600px;
-    background-image: url("../img/header.png");
-    background-size: cover;
-    background-position-y: center;
+@media (min-width: 820px) {
+    .header {
+        width: 100%;
+        height: 600px;
+        background-image: url("../img/header.png");
+        background-size: cover;
+        background-position-y: center;
 
-    > .background {
-        max-width: 1000px;
-        margin: 0 auto;
-        height: 100%;
+        > .background {
+            max-width: 1000px;
+            margin: 0 auto;
+            height: 100%;
+        }
+
+        #name {
+            display: block;
+            text-transform: uppercase;
+            font-weight: 900;
+            position: relative;
+            top: 75%;
+            color: #000;
+        }
     }
+}
 
-    #name {
-        display: block;
-        text-transform: uppercase;
-        font-weight: 900;
+@media (max-width: 820px) {
+    .header {
+        width: 100%;
+        height: 600px;
+        background-image: url("../img/header-mobile.png");
+        background-size: cover;
+        background-position-y: center;
+
+        > .background {
+            max-width: 1000px;
+            margin: 0 auto;
+            height: 100%;
+        }
+
+        #name {
+            display: block;
+            text-align: center;
+            font-weight: 900;
+            font-size: 3.5rem;
+            text-transform: uppercase;
+        }
+    }
+}
+@media (min-width: 820px) and (max-width: 1130px) {
+    .header #name {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 1130px) {
+    .header #name {
         font-size: 5rem;
-        position: relative;
-        top: 75%;
-        color: #000;
     }
 }
 
