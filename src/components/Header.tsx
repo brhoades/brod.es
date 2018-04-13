@@ -6,7 +6,7 @@ export default () => (
   <React.Fragment>
     <div className="header">
       <div className="background">
-        <h3>Billy Rhoades</h3>
+        <div id="name">Billy Rhoades</div>
       </div>
     </div>
   </React.Fragment>

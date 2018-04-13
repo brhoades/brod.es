@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export default () => (
   <React.Fragment>
-    <p>I like programming--- no, seriously, I <em>like</em> programming. If you were to stop by my place on an arbitrary Saturday, it’s very likely I would be working on some pet project. It would probably be in Typescript as it is my current favorite. That being said, I strongly believe a language should be chosen to fit the problem. As can be seen on Github, I’m not afraid of using a new language if it fits a problem better.</p>
+    <p>I like programming--- no, seriously, I <em>like</em> programming. I program as a hobby after work and on the weekends. Right now, TypeScript is my favorite language, but Python follows as a close second. As can be seen on Github, I’m not afraid of using a new language if it fits a problem better.</p>
 
     <p>If I were asked to “tell me about yourself” in an interview, I would begin with my hometown. I grew up in a small town of 161, Blue Eye, Missouri. I attended the same, small school for 13 years and graduated in its largest ever class of 76 students.</p>
 
