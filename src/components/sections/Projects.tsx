@@ -11,7 +11,7 @@ export default () => (
       tags={['TypeScript', 'React', 'Cryptography', 'AWS']}
     >
       <p>
-        Pasty is an anonymous, small file and code storage system written in TypeScript. All pastes are encrypted client-side before transmission for storage. Submitter pastes are solely tied to a server-provided identifier and are hosted from a public S3 bucket. The corresponding AES key to each paste never leaves the client, rendering server knowledge of the paste's existence useless. No identifying information about the paste's origin is retained.
+        Pasty is an anonymous, small file and code storage system written in TypeScript. All pastes are encrypted in a client-side React app or in a CLI before transmission for storage. Submitter pastes are solely tied to a server-provided identifier and are hosted from a public S3 bucket. The corresponding AES key to each paste never leaves the client, rendering server knowledge of the paste's existence useless. No identifying information about the paste's origin is retained.
       </p>
     </ProjectSubsection>
     <ProjectSubsection
@@ -20,7 +20,7 @@ export default () => (
       tags={['Docker', 'Python', 'Automation']}
     >
       <p>
-        Grader uses Docker and Python to easily grade many assignments in an encapsulated, safe manner. The general process starts by creating an image for a class or an assignment. That image can be given a payload, a protected grading script, which has a grading hooks. The grade module, when ran, creates an individual container for each student’s assignment and runs a payload hook. The payload then returns a JSON response with stdin, stdout, and additional response information depending on the image ran. 
+        Grader uses Docker and Python to easily grade many assignments in an encapsulated and safe manner. The overall grading process is configurable; in general, it starts by creating a Docker image for a class or an assignment. The image can be given a payload, a protected grading script, which has a grading hooks. When ran, grader creates an individual Docker container for each student’s assignment and then runs a payload hook in that container. The payload returns a JSON response with stdin, stdout, and additional response information depending on the image ran. 
       </p>
     </ProjectSubsection>
     <ProjectSubsection
@@ -30,7 +30,7 @@ export default () => (
       status="Unmaintained"
     >
       <p>
-        Marko is an IRC bot in Ruby that uses Markov Chains to generate text which appears to be written by humans. It gathers its source text from any channel it sits in, leading to humerous messages or drivel depending on quality. Markovirc drew deep inspiration from another IRC bot, <a href="https://github.com/allanlw/seeborg">SeeBorg</a>. Core logic from Marko has been separated into a gem <a href="https://github.com/brhoades/markov_speech">here</a>. 
+        Marko is an IRC bot in Ruby that uses Markov Chains to generate text which appears to be human written. It gathers its source text from any channel it sits in, leading to humerous messages or drivel. Markovirc drew deep inspiration from another IRC bot, <a href="https://github.com/allanlw/seeborg">SeeBorg</a>. Core logic from Marko has been separated into a gem <a href="https://github.com/brhoades/markov_speech">here</a>. 
       </p>
     </ProjectSubsection>
     <ProjectSubsection
