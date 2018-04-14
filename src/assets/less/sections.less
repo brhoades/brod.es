@@ -17,7 +17,9 @@
         }
 
         > a {
-            margin: 0 0.2rem;
+            display: table-cell;
+            vertical-align: middle !important;
+            padding: 0 0.1em;
         }
     }
 
@@ -77,6 +79,10 @@
 @media @desktops {
     .experience-blockquote {
         padding-left: 40px;
+    }
+
+    .subsection .details {
+        font-size: @sm-font;
     }
 }
 
