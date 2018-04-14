@@ -9,7 +9,7 @@ interface BlockProps {
 
 const Block = (props: BlockProps) => {
   const header = props.header && (
-    <div className="block-header">{props.header}</div>
+    <h1 className="block-header">{props.header}</h1>
   );
 
   return (

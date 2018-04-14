@@ -79,7 +79,7 @@ export default () => (
       company="batee.com"
       range="May 2015 - July 2015"
     >
-      <p style={{ paddingLeft: '40px' }}>
+      <p className="experience-blockquote">
         Developed a closed-source program in C for testing Corvette instrument panels. The program manually handled a display with features such as menu navigation, test feedback, and clean state transition. This program ran on a PIC16F1789 with 28 KB of memory, 2 KB of RAM, a 160×128 display, and 4 buttons.
       </p>
     </ExperienceSubsection>

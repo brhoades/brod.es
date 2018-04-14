@@ -17,11 +17,10 @@ export default (props: ProjectSubsectionPropType) => (
   <div className="subsection">
     <div className="title">
       <div className="title-group">
-        <h4>{props.title}</h4>
+        <h2>{props.title}</h2>
         {props.github && <a href={props.github} title="GitHub Repository"><GithubIcon /></a>}
         {props.website && <a href={props.website} title="Visit Application"><GlobeIcon /></a>}
       </div>
-      {props.status && <div className="status">{props.status}</div>}
     </div>
     {props.tags && <div className="subsection-tags">{props.tags.map(e => (<div key={e}>{e}</div>))}</div>}
     <div>

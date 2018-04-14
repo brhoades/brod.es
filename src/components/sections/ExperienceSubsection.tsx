@@ -11,7 +11,7 @@ export default (props: ExperienceSubsectionPropType) => (
   <div className="subsection">
     <div className="title">
       <div className="title-group">
-        <h4>{props.title}</h4>
+        <h2>{props.title}</h2>
       </div>
     </div>
     <div className="details">

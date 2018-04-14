@@ -7,6 +7,8 @@ import Experience from './components/sections/Experience.tsx';
 import Projects from './components/sections/Projects.tsx';
 import AboutMe from './components/sections/AboutMe.tsx';
 
+const styles = require('./assets/less/typography.less');
+
 const App = () => (
   <Layout>
     <Block header="About Me">

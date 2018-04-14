@@ -2,3 +2,19 @@
 // @primary-block-color: #ffd859;
 @primary-block-color: #c7f1fd;
 @secondary-block-color: #fff;
+
+@mq-small: 768px;
+@mq-medium: 1280px;
+@mq-large: 1080px;
+
+@smartphones: ~"screen and (max-width: @{mq-small})";
+@desktops: ~"screen and (min-width: @{mq-small})";
+
+@base-font-size: 1em;
+
+@xxlg-font: @base-font-size*4;
+@xlg-font: @base-font-size*3;
+@lg-font: @base-font-size*2.5;
+@md-font: @base-font-size*2;
+@sm-font: @base-font-size;
+@xsm-font: @base-font-size*0.75;
