@@ -18,7 +18,6 @@ export default () => (
         </li>
         <li>
           Triaged and handled client escalations
-        <li>
         </li>
         <li>
           Filtered and investigated incoming defects for Patient Portal
@@ -26,6 +25,7 @@ export default () => (
         <li>
           Designed, drafted, and proposed workarounds for large client requests
         </li>
+        <li>
           Streamlined release processes: pushed for removal of redundant forms and optimized time spent creating artifacts
         </li>
       </ul>
