@@ -5,9 +5,35 @@ import ExperienceSubsection from './ExperienceSubsection';
 export default () => (
   <React.Fragment>
     <ExperienceSubsection
+      title="Team Lead | Associate Senior Software Engineer"
+      company="Cerner Corporation - HealtheIntent - Consumer"
+      range="September 2018 - Present"
+    >
+      <ul>
+        <li>
+          Managed and onboarded a team of 5 engineers
+        </li>
+        <li>
+          Led team to fix incoming defects in Patient Portal to improve client satisfaction
+        </li>
+        <li>
+          Triaged and handled client escalations
+        <li>
+        </li>
+        <li>
+          Filtered and investigated incoming defects for Patient Portal
+        </li>
+        <li>
+          Designed, drafted, and proposed workarounds for large client requests
+        </li>
+          Streamlined release processes: pushed for removal of redundant forms and optimized time spent creating artifacts
+        </li>
+      </ul>
+    </ExperienceSubsection>
+    <ExperienceSubsection
       title="Associate Senior Software Engineer"
       company="Cerner Corporation - HealtheIntent - Consumer"
-      range="June 2016 -"
+      range="June 2016 - September 2018"
     >
       <ul>
         <li>
@@ -29,7 +55,7 @@ export default () => (
           Developed a React profile page with redux-form that allows users (patients and family) to update their information in one spot
         </li>
         <li>
-          Mentored 8 people in DevAcademy, Cerner's multimonth Software Engineer onboarding program where mentors act as both mentors and quasimanagers
+          Mentored 12 people in DevAcademy, Cerner's multi-month Software Engineer onboarding program where mentors act as both mentors and quasimanagers
         </li>
         <li>
           Wrote documentation for Django unit testing best practices that cover performance, reusability, and antipatterns
