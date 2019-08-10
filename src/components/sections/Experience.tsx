@@ -28,6 +28,12 @@ export default () => (
         <li>
           Streamlined release processes: pushed for removal of redundant forms and optimized time spent creating artifacts
         </li>
+        <li>
+          Prototyped Python 2.7 to 3.4, Django 1.7 to 2.0 conversion of 5+ year old code base
+        </li>
+        <li>
+          Dockerized Patient Portal
+        </li>
       </ul>
     </ExperienceSubsection>
     <ExperienceSubsection
