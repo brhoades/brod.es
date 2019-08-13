@@ -43,7 +43,7 @@ export default () => (
     >
       <ul>
         <li>
-          Developed and maintained HealtheLife (<a href="http://www.cerner.com/page.aspx?pageid=2147485133">Patient Portal</a>), a Django web portal for patient self-service
+          Developed and maintained Patient Portal, a Django web portal for patient self-service
         </li>
         <li>
           Designed and developed pageletized versions of existing pages in Patient Portal
