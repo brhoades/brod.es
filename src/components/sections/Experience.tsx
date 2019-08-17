@@ -11,28 +11,22 @@ export default () => (
     >
       <ul>
         <li>
-          Managed and onboarded a team of 5 engineers
+          Managed and onboarded a team of 4 to 7 excusively new engineers in fixing defects and enhancing Patient Portal
         </li>
         <li>
-          Led team to fix incoming defects in Patient Portal to improve client satisfaction
+          Triaged, prioritized, and handled client escalations for a product with 1,000+ clients while filtering and investigating incoming defects
         </li>
         <li>
-          Triaged and handled client escalations
+          Designed, proposed, and led implementation of a mechanism to passively enforce uniqueness on a large, high volume Oracle DB table totaling over 2 billion rows
         </li>
         <li>
-          Filtered and investigated incoming defects for Patient Portal
+          Streamlined release processes: combined 7 redundant workplans signed more than twice a month by multiple people into 2 workplans; reduced time spent creating artifacts every release from 2 hours to 15 minutes
         </li>
         <li>
-          Designed, drafted, and proposed workarounds for large client requests
+          Prototyped, estimated, and proposed a Python 2.7 to 3.4, Django 1.7 to 2.0 conversion of 5+ year old Django monolith
         </li>
         <li>
-          Streamlined release processes: pushed for removal of redundant forms and optimized time spent creating artifacts
-        </li>
-        <li>
-          Prototyped Python 2.7 to 3.4, Django 1.7 to 2.0 conversion of 5+ year old code base
-        </li>
-        <li>
-          Dockerized Patient Portal
+          Prototyped and proposed a Dockerized Patient Portal
         </li>
       </ul>
     </ExperienceSubsection>
@@ -46,25 +40,28 @@ export default () => (
           Developed and maintained Patient Portal, a Django web portal for patient self-service
         </li>
         <li>
-          Designed and developed pageletized versions of existing pages in Patient Portal
+          Designed and developed pageletized (iframe-embeddable) versions of existing pages in Patient Portal
         </li>
         <li>
-          Created and executed Gatling tests for DEx, Cerner's client-configurable and extensible healthecare framework
+          Created and executed Gatling tests for Consumer Portal, a client-configurable and extensible website framework
         </li>
         <li>
-          Converted Clipboards, a set of configurable online forms that can be filled out prior to visiting a doctor's office, from Django forms to React
+          Converted Clipboards from Django templates to React; Clipboards is a set of configurable online forms that can be filled out prior to visiting a doctor's office
         </li>
         <li>
-          Deployed and containerized Patient Portal to EC2 using Spinnaker and Chef
+          Deployed a containerized Patient Portal to EC2 using Spinnaker, Packer, and Chef
         </li>
         <li>
-          Developed a React profile page with redux-form that allows users (patients and family) to update their information in one spot
+          Led team in using redux-form across multiple products to reduce time spent handling common form functionality
         </li>
         <li>
-          Mentored 12 people in DevAcademy, Cerner's multi-month Software Engineer onboarding program where mentors act as both mentors and quasimanagers
+          Managed an intern that built a commonly used utility and returned full time
         </li>
         <li>
           Wrote documentation for Django unit testing best practices that cover performance, reusability, and antipatterns
+        </li>
+        <li>
+          Mentored 12 people in DevAcademy, Cerner's multi-month Software Engineer onboarding program where mentors act as both mentors and quasimanagers
         </li>
       </ul>
     </ExperienceSubsection>
@@ -81,10 +78,10 @@ export default () => (
           Served as sole point of contact for all programming questions
         </li>
         <li>
-          Held office hours to answer questions
+          Held regular office hours to answer student questions
         </li>
         <li>
-          Lectured on a few topics, including CRTP / static polymorphism, virtual memory management, and C++11/C++14 features
+          Lectured on CRTP / static polymorphism, virtual memory management, and C++11/C++14 features
         </li>
       </ul>
     </ExperienceSubsection>
@@ -112,7 +109,7 @@ export default () => (
       range="May 2015 - July 2015"
     >
       <p className="experience-blockquote">
-        Developed a closed-source program in C for testing Corvette instrument panels. The program manually handled a display with features such as menu navigation, test feedback, and clean state transition. This program ran on a PIC16F1789 with 28 KB of memory, 2 KB of RAM, a 160×128 display, and 4 buttons.
+        Developed a proprietary program in C for testing Corvette instrument panels. The program manually handled a display with features such as menu navigation, test feedback, and clean state transition. This program ran on a PIC16F1789 with 28 KB of memory, 2 KB of RAM, a 160×128 display, and 4 buttons.
       </p>
     </ExperienceSubsection>
     <ExperienceSubsection
