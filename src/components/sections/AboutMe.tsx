@@ -11,7 +11,7 @@ export default () => (
     <p>With a small school, I had no opportunity for a introduction into computer science. In 8th grade, I was really into RuneScape but became bored with actually playing it. I joined an online community that wrote bots to play the game for them; from this, I learned my first programming language, Pascal.</p>
 
     <p>
-      In High School, I became co-owner of Knights of Reason: a gaming community centered around a game Tremulous. Over the next 4 years, I learned the majority of my management and people skills from structuring, discipling, and leading a group of 40 individuals around the globe. I built complex tools in PHP / Bash which assisted in this: KoRPS and KoRMS, which enabled democratic voting in / out of members to our group.
+      In High School, I became co-owner of Knights of Reason, a gaming community centered around a game Tremulous. Over the next 4 years, I learned the majority of my management and people skills from structuring, discipling, and leading a group of 40 individuals around the globe. I built complex tools in PHP / Bash which assisted in this: KoRPS and KoRMS, which enabled democratic voting in / out of members to our group.
     </p>
 
       <p>I was fortunate to have discovered Linux in 8th grade. I did not know what to make of it then, but something about it stuck with me. A year later and I had it on my home computer. Fast forward three years and my desktop and laptop both ran Arch Linux, with the latter not even having a Windows install. 10+ years later, all my personal machines still run some variant of Linux as the primary OS.</p>
