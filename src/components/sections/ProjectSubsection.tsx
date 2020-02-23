@@ -1,6 +1,5 @@
 import * as React from 'react';
-import GithubIcon from 'react-icons/lib/go/mark-github';
-import GlobeIcon from 'react-icons/lib/go/globe';
+import { GoGlobe, GoMarkGithub } from 'react-icons/go';
 
 const styles = require('../../assets/less/sections.less');
 
@@ -18,8 +17,8 @@ export default (props: ProjectSubsectionPropType) => (
     <div className="title">
       <div className="title-group">
         <h2>{props.title}</h2>
-        {props.github && <a href={props.github} title="GitHub Repository"><GithubIcon /></a>}
-        {props.website && <a href={props.website} title="Visit Application"><GlobeIcon /></a>}
+        {props.github && <a href={props.github} title="GitHub Repository"><GoMarkGithub /></a>}
+        {props.website && <a href={props.website} title="Visit Application"><GoGlobe /></a>}
       </div>
     </div>
     {props.tags && <div className="subsection-tags">{props.tags.map(e => (<div key={e}>{e}</div>))}</div>}
