@@ -2,7 +2,7 @@
   "name": "brodes",
   "version": "0.0.1",
   "main": "src/index.tsx",
-  "author": "Billy Rhoades <billyarhoades@gmail.com>",
+  "author": "Billy Rhoades <me@brod.es>",
   "license": "MIT",
   "private": false,
   "dependencies": {
