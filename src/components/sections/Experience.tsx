@@ -5,7 +5,7 @@ import ExperienceSubsection from './ExperienceSubsection';
 export default () => (
   <React.Fragment>
     <ExperienceSubsection
-      title="Software Engineer"
+      title="Senior Software Engineer"
       company="ngrok"
       range="October 2019 - Present"
     >
