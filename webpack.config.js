@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
 const path = require("path");
 const webpack = require("webpack");
 
@@ -27,7 +28,7 @@ module.exports = {
         exclude: /dist|node_modules/,
       },
       {
-        test: /\.(png|jpg|gif|svg|eot|woff2?|ttf)$/,
+        test: /\.(jpg|png|gif|svg|webp|eot|woff2?|ttf)$/,
         loader: "file-loader",
         options: {
           name: "[name].[ext]",
@@ -98,4 +99,18 @@ if (process.env.NODE_ENV === "production") {
       minimize: true,
     }),
   ])
+
+  module.exports.optimization = {
+    minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        cache: true,
+        parallel: true,
+        sourceMap: true, // Must be set to true if using source-maps in production
+        terserOptions: {
+          // https://github.com/webpack-contrib/terser-webpack-plugin#terseroptions
+        }
+      }),
+    ],
+  }
 }
