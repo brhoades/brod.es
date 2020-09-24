@@ -60,12 +60,12 @@ module.exports = {
   },
   devtool: "source-map",
   plugins: [
-    new CopyWebpackPlugin([
-      {
-        from: "src/assets/*",
-        to: "assets/[name].[ext]"
-      },
-    ]),
+    new CopyWebpackPlugin({
+      patterns: [{
+        from: "./src/assets/img/*",
+        to: "./assets/[name].[ext]",
+      }],
+    }),
     new HtmlWebpackPlugin({
       template: "src/index.ejs",
     }),
