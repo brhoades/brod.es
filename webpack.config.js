@@ -1,8 +1,7 @@
 /* tslint:disable */
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
-const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const path = require("path");
 const webpack = require("webpack");
@@ -21,7 +20,7 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        loader: [
+        use: [
           "babel-loader",
           "ts-loader",
         ],
@@ -70,28 +69,18 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "src/index.ejs",
     }),
-    new ExtractTextPlugin({ // define where to save the file
+    new MiniCssExtractPlugin({
       filename: 'dist/[name].bundle.css',
-      allChunks: true,
     }),
   ],
 };
 
 if (process.env.NODE_ENV === "production") {
-  module.exports.devtool = "#source-map";
   module.exports.output.publicPath = "./";
   module.exports.plugins = (module.exports.plugins || []).concat([
     new webpack.DefinePlugin({
       "process.env": {
         NODE_ENV: "\"production\"",
-      },
-    }),
-    new UglifyJsPlugin({
-      cache: true,
-      parallel: 4,
-      sourceMap: true,
-      uglifyOptions: {
-        toplevel: true,
       },
     }),
     new webpack.LoaderOptionsPlugin({
@@ -107,9 +96,7 @@ if (process.env.NODE_ENV === "production") {
         cache: true,
         parallel: true,
         sourceMap: true, // Must be set to true if using source-maps in production
-        terserOptions: {
-          // https://github.com/webpack-contrib/terser-webpack-plugin#terseroptions
-        }
+        terserOptions: {}
       }),
     ],
   }
