@@ -5,11 +5,49 @@ import ExperienceSubsection from './ExperienceSubsection';
 export default () => (
   <React.Fragment>
     <ExperienceSubsection
-      title="Senior Software Engineer"
+      title="Senior Software Engineer - Team/Tech Lead"
       company="ngrok"
-      range="October 2019 - Present"
+      range="October 2020 - Present"
     >
-      <ul />
+    <p>I'm currently leading the development of ngrok's next generation platform.</p>
+    Past projects:
+      <ul>
+        <li>
+          Rewrote and redesigned delicate atomic logic in Redis from Lua to Rust.
+        </li>
+        <li>
+          Designed and implemented dynamic module loading system for loading and interfacing with Redis Rust module from Go deployments.
+        </li>
+        <li>
+          Prototyped, implemented, and migrated a mission critical, fragile on-cluster Redis deployment to a custom Redis Sentinel system which interfaces with Kubernetes' API.
+        </li>
+        <li>
+          Upgraded a year+ old on-premises distribution for a high value client, working closely with them throughout.
+        </li>
+      </ul>
+    </ExperienceSubsection>
+    <ExperienceSubsection
+      title="Software Engineer"
+      company="ngrok"
+      range="October 2019 - October 2020"
+    >
+      <ul>
+        <li>
+          Architected and developed SSO OAuth integration for endpoint authentication that supported user-specified authentication parameters.
+        </li>
+        <li>
+          Designed and implemented sweeping changes to existing static tunneling system to perform continuous updates in response to user configuration changes.
+        </li>
+        <li>
+          Interviewed nearly all 30+ incoming engineering candidates and designed most interview problems ran.
+        </li>
+        <li>
+          Developed webhook validation endpoint configurations.
+        </li>
+        <li>
+          Greatly improved CI coverage by running integration tests against a per-job Kubernetes cluster with production-like ngrok deployment.
+        </li>
+      </ul>
     </ExperienceSubsection>
     <ExperienceSubsection
       title="Team Lead | Senior Software Engineer"
@@ -18,7 +56,7 @@ export default () => (
     >
       <ul>
         <li>
-          Managed and onboarded a team of 4 to 7 excusively new engineers in fixing defects and enhancing Patient Portal
+          Managed and onboarded a team of 7 excusively new engineers in fixing defects and enhancing Patient Portal
         </li>
         <li>
           Triaged, prioritized, and handled client escalations for a product with 1,000+ clients while filtering and investigating incoming defects
