@@ -16,10 +16,10 @@ export default () => (
           Rewrote and redesigned delicate atomic logic in Redis from Lua to Rust.
         </li>
         <li>
-          Designed and implemented dynamic module loading system for loading and interfacing with Redis Rust module from Go deployments.
+          Designed and implemented custom module loading system for loading and interfacing with a Redis Rust module from Go deployments.
         </li>
         <li>
-          Prototyped, implemented, and migrated a mission critical, fragile on-cluster Redis deployment to a custom Redis Sentinel system which interfaces with Kubernetes' API.
+          Prototyped, implemented, and migrated a mission critical, fragile, on-cluster Redis deployment to a custom Redis Sentinel system which fits within Kubernetes' API and can be deployed without downtime.
         </li>
         <li>
           Upgraded a year+ old on-premises distribution for a high value client, working closely with them throughout.
