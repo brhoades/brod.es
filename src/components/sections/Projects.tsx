@@ -7,7 +7,6 @@ export default () => (
     <ProjectSubsection
       title="Pasty"
       github="https://github.com/brhoades/pasty-react"
-      website="https://p.brod.es/"
       tags={['TypeScript', 'React', 'Cryptography', 'AWS']}
     >
       <p>
