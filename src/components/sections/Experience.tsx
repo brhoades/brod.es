@@ -7,9 +7,15 @@ export default () => (
     <ExperienceSubsection
       title="Senior Software Engineer - Team/Tech Lead"
       company="ngrok"
-      range="October 2020 - Present"
+      range={
+        <>
+          May 2023 - August 2023
+          <br />
+          October 2020 - April 2022
+        </>
+      }
     >
-    <p>I'm currently leading the development of ngrok's next generation platform</p>
+    <p>I led development of ngrok's next generation platform, Cloud Edges.</p>
     Past projects:
       <ul>
         <li>
@@ -22,9 +28,29 @@ export default () => (
           Prototyped, implemented, and migrated a mission critical, fragile, on-cluster Redis deployment to a custom Redis Sentinel system which fits within Kubernetes' API and can be deployed without downtime
         </li>
         <li>
-          Upgraded a year+ old on-premises distribution for a high value client, working closely with them throughout
+          Upgraded a year+ old on-premises distribution for ngrok's largest client, working closely with them throughout
         </li>
       </ul>
+    </ExperienceSubsection>
+    <ExperienceSubsection
+      title="Engineering Manager - Team Network Edge"
+      company="ngrok"
+      range="April 2022 - May 2023"
+    >
+      <p>I managed the premier product team of 7 great engineers. All the while onboarding my 3 peer managers, passing the tech lead torch,
+      acting as PM and TAM, managing upwards, and creating clarity in a new ngrok era.<br />
+        <ul>
+          <li>
+            Led major documentation and process creation: SDLC, next generation per-team oncall, postmortems, and engineering onboarding process
+          </li>
+          <li>
+            Technical account manager and primary point of contact for ngrok's largest and only on-prem client
+          </li>
+          <li>
+            Wrapped and launched the largest ngrok project yet, Global Network, which spanned over a year of development time
+          </li>
+        </ul>
+      </p>
     </ExperienceSubsection>
     <ExperienceSubsection
       title="Software Engineer"
