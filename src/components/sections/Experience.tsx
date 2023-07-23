@@ -5,7 +5,7 @@ import ExperienceSubsection from './ExperienceSubsection';
 export default () => (
   <React.Fragment>
     <ExperienceSubsection
-      title="Senior Software Engineer - Team/Tech Lead"
+      title="Senior Software Engineer - Tech Lead"
       company="ngrok"
       range={
         <>
@@ -15,11 +15,14 @@ export default () => (
         </>
       }
     >
-    <p>I led development of ngrok's next generation platform, Cloud Edges.</p>
-    Past projects:
+      <p>I was employee number 9 at ngrok. With Go and Rust, I developed microservices which ran on Kubernetes clusters globally.
+         My networking and Linux knowledge expanded significantly through debugging and troubleshooting operational incidents
+         against ngrok's network edge. Throughout, I interviewed over a hundred candidates, onboarded a director of engineering,
+        served as the only onboarding mentor for years, refined interview process, and created high quality technical artifacts for
+        the company. I was fortunate to have the opportunity to rework core fundamentals in ngrok's platform over the years.</p>
       <ul>
         <li>
-          Rewrote and redesigned delicate atomic logic in Redis from Lua to Rust
+          Redesigned and tested core ngrok functionality written in Redis Lua to a Rust module
         </li>
         <li>
           Designed and implemented custom module loading system for loading and interfacing with a Redis Rust module from Go deployments
@@ -30,6 +33,12 @@ export default () => (
         <li>
           Upgraded a year+ old on-premises distribution for ngrok's largest client, working closely with them throughout
         </li>
+          <li>
+            Interviewed more than 125 candidates: roughly 50/50 between IC and mangement roles
+          </li>
+          <li>
+            Referred 10 engineers from my network with 5 hired (for a time it was 30% of engineers at ngrok)
+          </li>
       </ul>
     </ExperienceSubsection>
     <ExperienceSubsection
@@ -37,11 +46,11 @@ export default () => (
       company="ngrok"
       range="April 2022 - May 2023"
     >
-      <p>I managed the premier product team of 7 great engineers. All the while onboarding my 3 peer managers, passing the tech lead torch,
-      acting as PM and TAM, managing upwards, and creating clarity in a new ngrok era.<br />
+      <p>I managed a team of 7 great engineers in building out and maintaining ngrok's network edge. All the while onboarding our
+        first 3 enginering managers, passing the tech lead torch, acting as PM and TAM, managing upwards, and creating clarity in a new ngrok era.<br />
         <ul>
           <li>
-            Led major documentation and process creation: SDLC, next generation per-team oncall, postmortems, and engineering onboarding process
+            Led process creation: SDLC, next generation per-team oncall, postmortems, and engineering onboarding process
           </li>
           <li>
             Technical account manager and primary point of contact for ngrok's largest and only on-prem client
@@ -59,16 +68,16 @@ export default () => (
     >
       <ul>
         <li>
-          Architected and developed SSO OAuth integration for endpoint authentication that supported user-specified authentication parameters
+          Architected and developed SSO OAuth integration for endpoint authentication that enforces user-specified constraints
         </li>
         <li>
-          Designed and implemented sweeping changes to existing static tunneling system to perform continuous updates in response to user configuration changes
+          Designed and implemented sweeping changes to existing tunnel middleware system, enabling continuous updates of previously static endpoints based on controlplane changes
         </li>
         <li>
-          Interviewed nearly all 30+ incoming engineering candidates and designed most interview problems ran
+          Designed technical interviews used by the company for the next 4 years
         </li>
         <li>
-          Developed webhook validation endpoint configurations
+          Developed webhook verification middleware to easily enforce webhook authz with ngrok
         </li>
         <li>
           Greatly improved CI coverage by running integration tests against a per-job Kubernetes cluster with production-like ngrok deployment
@@ -233,7 +242,7 @@ export default () => (
     >
       <ul>
         <li>
-          Packaged and maintained Perl applications 
+          Packaged and maintained Perl applications
         </li>
         <li>
           Used Microsoft SCCM for software and OS deployments to over 4,000 machines
