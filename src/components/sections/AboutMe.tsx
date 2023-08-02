@@ -8,9 +8,9 @@ export default () => (
     </p>
     <p>
         I'm a flexible software engineer that thrives in ambiguity. Roles throughout my career have reinforced a core principle: software engineering is ultimately a
-        people business. Which is fortunate as people are my strength; I naturally (and often subconsciously) excel in bonding and growing folks around me.
-        Through growth, I connect with my coworkers by listening. And in something like an upward spiral, I create clarity, foster team communication, provide
-        technical insight, and ultimately enable them to reach great outcomes <em>without me</em>.
+        people business. People are my strength. I naturally (and often subconsciously) excel in bonding and growing folks around me.
+        And in something like an upward spiral, I provide technical insight, create clarity, foster team communication
+        and enable us to reach great outcomes.
     </p>
 
     <p>If I were asked to “tell me about yourself” in an interview, I would begin with my hometown. I grew up in a small town of 161, Blue Eye, Missouri and it heavily influenced how I see education and learning. I attended the same, small school for 13 years and graduated in its largest-ever class of 76 students.</p>

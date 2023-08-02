@@ -3,10 +3,10 @@ import * as React from 'react';
 import Block from './components/Block';
 import Layout from './components/Layout';
 
-import Experience from './components/sections/Experience.tsx';
-import Projects from './components/sections/Projects.tsx';
-import AboutMe from './components/sections/AboutMe.tsx';
-import Education from './components/sections/Education.tsx';
+import Experience from './components/sections/Experience';
+import Projects from './components/sections/Projects';
+import AboutMe from './components/sections/AboutMe';
+import Education from './components/sections/Education';
 
 const styles = require('./assets/less/typography.less');
 
