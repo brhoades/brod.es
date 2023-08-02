@@ -1,4 +1,4 @@
 .babel_cache
 dist
 node_modules
-
+.direnv
