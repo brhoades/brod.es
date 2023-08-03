@@ -3,14 +3,14 @@ import * as React from 'react';
 export default () => (
   <React.Fragment>
     <p>
-      <strong>2023: I'm available for hire!</strong><br/> Please <a href="mailto:me@brod.es">reach out</a> if the below messaging resonates with expectations for a staff
-      engineer role at your company.
+      <strong>
+        <a href="mailto:jobs@brod.es">2023: I'm available for hire!</a>
+      </strong>
+      <br />
+      Looking for opportunities, especially early-stage, that align with my personal values.
     </p>
     <p>
-        I'm a flexible software engineer that thrives in ambiguity. Roles throughout my career have reinforced a core principle: software engineering is ultimately a
-        people business. People are my strength. I naturally (and often subconsciously) excel in bonding and growing folks around me.
-        And in something like an upward spiral, I provide technical insight, create clarity, foster team communication
-        and enable us to reach great outcomes.
+      I'm a software generalist that thrives in ambiguity. I've been fortunate to have roles that consistently reinforce a core belief: software engineering is ultimately a people business. I lean toward growth-minded organizations that put an emphasis on their people. My professional mission is to add business value, foster team communication, provide technical insight, and ultimately enable the business to reach great outcomes.
     </p>
 
     <p>If I were asked to “tell me about yourself” in an interview, I would begin with my hometown. I grew up in a small town of 161, Blue Eye, Missouri and it heavily influenced how I see education and learning. I attended the same, small school for 13 years and graduated in its largest-ever class of 76 students.</p>
