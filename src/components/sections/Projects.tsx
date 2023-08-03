@@ -18,22 +18,6 @@ export default () => (
       </p>
     </ProjectSubsection>
     <ProjectSubsection
-      title="Pasty"
-      github="https://github.com/brhoades/pasty-react"
-      tags={['TypeScript', 'React', 'Cryptography', 'AWS']}
-    >
-      <p>
-        Pasty is an anonymous, small file and code storage system
-        written in TypeScript. All pastes are encrypted in a client-side
-        React app or in a CLI before transmission for storage. Submitter
-        pastes are solely tied to a server-provided identifier and are
-        hosted from a public S3 bucket. The corresponding AES key to
-        each paste never leaves the client, rendering server knowledge
-        of the paste's existence useless. No identifying information
-        about the paste's origin is retained.
-      </p>
-    </ProjectSubsection>
-    <ProjectSubsection
       title="Grader"
       github="https://github.com/redkyn/grader"
       tags={['Docker', 'Python', 'Automation']}
