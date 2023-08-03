@@ -10,11 +10,11 @@ export default () => (
       tags={['Rust', 'Linux', 'Hardware', 'DDC/CI']}
     >
       <p>
-        dlux (pronunced like "deluxe") is a tiny hardware brightness
+        dlux (pronounced like "deluxe") is a tiny hardware brightness
         control daemon that automatically sets hardware display
-        brightness based on the time of day. Unlike flux and redshift,
-        it saves power by reducing the light output by your monitor based
-        on your settings.
+        brightness based on the time of day. Unlike f.lux and Redshift,
+        it saves power by physically reducing the light output by your monitor
+        based on configuration.
       </p>
     </ProjectSubsection>
     <ProjectSubsection
