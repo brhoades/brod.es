@@ -7,7 +7,7 @@ export default () => (
     <ProjectSubsection
       title="dlux"
       github="https://github.com/brhoades/dlux"
-      tags={['Rust', 'Linux', 'hardware', 'ddc/ci']}
+      tags={['Rust', 'Linux', 'Hardware', 'DDC/CI']}
     >
       <p>
         dlux (pronunced like "deluxe") is a tiny hardware brightness
