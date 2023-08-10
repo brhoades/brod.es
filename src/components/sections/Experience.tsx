@@ -33,12 +33,18 @@ export default () => (
         <li>
           Upgraded a year+ old on-premises distribution for ngrok's largest client, working closely with them throughout
         </li>
-          <li>
-            Interviewed more than 125 candidates: roughly 50/50 between IC and mangement roles
-          </li>
-          <li>
-            Referred 10 engineers from my network with 5 hired (for a time it was 30% of engineers at ngrok)
-          </li>
+        <li>
+          Interviewed more than 125 candidates: roughly 50/50 between IC and mangement roles
+        </li>
+        <li>
+          Referred 10 engineers from my network with 5 hired (for a time it was 30% of engineers at ngrok)
+        </li>
+        <li>
+          Diagnosed and improved performance of Postgres, reworking serializable transactions and tuning the database of a billion+ row delete-heavy database
+        </li>
+        <li>
+          Worked with new on-call engineers to diagnose Postgres replication (via <a href="https://github.com/eulerto/wal2json">wal2json</a>) erroneously TOASTing values in the WAL
+        </li>
       </ul>
     </ExperienceSubsection>
     <ExperienceSubsection
@@ -57,6 +63,9 @@ export default () => (
           </li>
           <li>
             Wrapped and launched the largest ngrok project yet, Global Network, which spanned over a year of development time
+          </li>
+          <li>
+            Reduced deploy times for pgreplica, ngrok's in-house Postgres replication system, to bring deploy times from 5 hours down to 1.5 hours
           </li>
         </ul>
       </p>
