@@ -5,6 +5,17 @@ import ProjectSubsection from './ProjectSubsection';
 export default () => (
   <React.Fragment>
     <ProjectSubsection
+      title="httpot"
+      github="https://github.com/brhoades/httpot"
+      tags={['Rust', 'HTTP', 'Honeypot']}
+    >
+      <p>
+        A small HTTP honeypot, developed as an excuse to write a homegrown
+        HTTP/1.1 server. Supports generating infinite directory listings
+        from a seed as well as looking like a vulnerable PHP server.
+      </p>
+    </ProjectSubsection>
+    <ProjectSubsection
       title="dlux"
       github="https://github.com/brhoades/dlux"
       tags={['Rust', 'Linux', 'Hardware', 'DDC/CI']}
