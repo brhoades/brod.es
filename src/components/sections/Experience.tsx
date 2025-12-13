@@ -5,6 +5,34 @@ import ExperienceSubsection from './ExperienceSubsection';
 export default () => (
   <React.Fragment>
     <ExperienceSubsection
+      title="Staff Software Engineer"
+      company="Rippling - IT - Devices"
+      range="October 2023 - Present"
+    >
+      <p>
+        I guided technical direction for thirty-five engineers managing a 100k+ device fleet.
+        Our patchwork Device Management product was temperamental, written by engineers six years prior for
+        an order of magnitude fewer devices. I kept the platform afloat while tech leading the client
+        software team.
+      </p>
+      <ul>
+        <li>
+          Led the Devices Client team responsible for 10 separate programs running on MacOS and Windows devices, chiefly a Rust agent
+          {/* CLI Installer Windows, CLI Installer MacOS, Rust agent (pangolin/tg/supervisor), Rescuer Mac, Rescuer Win, electron installer, desktop app (user-facing), tray icon, PSSO extension, pGina fork  */}
+        </li>
+        <li>
+          Shipped a robust orchestrater for a multiplatform Rust agent to replace a troubled sqlite-based orchestrator
+        </li>
+        <li>
+          Roadmapped and completed a linearization of client software installation
+        </li>
+        <li>
+           Architected and executed a reorg from vertical product-sliced teams to horizontal platform-sliced teams
+        </li>
+      </ul>
+    </ExperienceSubsection>
+
+    <ExperienceSubsection
       title="Senior Software Engineer - Tech Lead"
       company="ngrok"
       range={
