@@ -15,11 +15,13 @@ export default () => (
         </>
       }
     >
-      <p>I was employee number 9 at ngrok. With Go and Rust, I developed microservices which ran on Kubernetes clusters globally.
+      <p>
+        I was employee number 9 at ngrok. I developed Go and Rust microservices on a custom, Kubernetes-backed global edge.
          My networking and Linux knowledge expanded significantly through debugging and troubleshooting operational incidents
          against ngrok's network edge. Throughout, I interviewed over a hundred candidates, onboarded a director of engineering,
         served as the only onboarding mentor for years, refined interview process, and created high quality technical artifacts for
-        the company. I was fortunate to have the opportunity to rework core fundamentals in ngrok's platform over the years.</p>
+        the company. I was fortunate to have the opportunity to rework core fundamentals in ngrok's platform over the years.
+      </p>
       <ul>
         <li>
           Redesigned and tested core ngrok functionality written in Redis Lua to a Rust module
