@@ -47,23 +47,6 @@ export default () => (
       </p>
     </ProjectSubsection>
     <ProjectSubsection
-      title={"Markovirc \"Marko\""}
-      github="https://github.com/linuxmercedes/markovirc"
-      tags={['Ruby', 'Machine Learning', 'Natural Language Processing', 'Postgres']}
-      status="Unmaintained"
-    >
-      <p>
-        Marko is an IRC bot in Ruby that uses Markov Chains to
-        generate text which appears to be human written. It gathers
-        its source text from any channel it sits in, leading to
-        humerous messages or drivel. Markovirc drew deep inspiration
-        from another IRC bot, <a
-        href="https://github.com/allanlw/seeborg">SeeBorg</a>. Core
-        logic from Marko has been separated into a gem <a
-        href="https://github.com/brhoades/markov_speech">here</a>.
-      </p>
-    </ProjectSubsection>
-    <ProjectSubsection
       title={"Selenium Wrapper"}
       github="https://github.com/brhoades/selenium_wrapper"
       tags={['Python', 'Selenium', 'Load Testing', 'Curses']}
