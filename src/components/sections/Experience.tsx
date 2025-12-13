@@ -156,7 +156,7 @@ export default () => (
     </ExperienceSubsection>
     <ExperienceSubsection
       title="Grader"
-      company="Missouri S&T – CS5201 / CS328"
+      company="Missouri S&T – CS5201 / CS328 (C++ for Ninjas)"
       range="January 2016 – May 2016"
     >
       <ul>
@@ -176,7 +176,7 @@ export default () => (
     </ExperienceSubsection>
     <ExperienceSubsection
       title="Lab Assistant"
-      company="Missouri S&T – CS1570 / CS53"
+      company="Missouri S&T – CS1570 / CS53 (Intro to C++)"
       range="August 2015 – December 2015"
     >
       <ul>
@@ -185,7 +185,7 @@ export default () => (
     </ExperienceSubsection>
     <ExperienceSubsection
       title="Grader"
-      company="Missouri S&T – CS1570 / CS53"
+      company="Missouri S&T – CS1570 / CS53 (Intro to C++)"
       range="August 2015 – December 2015"
     >
       <ul>
@@ -229,7 +229,7 @@ export default () => (
     </ExperienceSubsection>
     <ExperienceSubsection
       title="Service Performance and Reliability Co-op"
-      company="Monsanto - IT - Global Infrastructure"
+      company="Bayer - IT - Global Infrastructure"
       range="June 2014 - December 2014"
     >
       <ul>
@@ -240,7 +240,7 @@ export default () => (
           Collaborated with a hackathon team to make a web-based idea board
         </li>
         <li>
-          Created a dashing-based dashboard to monitor SalesForce and AWS cloud status
+          Created a dashing-based dashboard to monitor Salesforce and AWS status
         </li>
       </ul>
     </ExperienceSubsection>

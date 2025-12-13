@@ -56,7 +56,7 @@ export default () => (
         Selenium Wrapper is a Python wrapper around the <a
         href="http://www.seleniumhq.org/">Selenium web testing
         framework</a>. Selenium Wrapper was created as part of my
-        co-op with Monsanto to assist my team in load testing websites
+        co-op with Bayer to to assist my team in load testing websites
         where WebLOAD was not properly recording all data. This
         project wraps many headless PhantomJS instances to run a
         recorded and converted script to load test a website. The
