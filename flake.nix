@@ -18,7 +18,7 @@
           nodejs_latest
           yarn
 
-          awscli
+          awscli2
 
           giflib libjpeg libwebp libpng zlib
         ];

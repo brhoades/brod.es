@@ -24,7 +24,7 @@ export default () => (
           Solved multi-month incident pattern others gave up on: blocking API calls at 2k req/s. Saved $10k+/mo in EC2
         </li>
         <li>
-          Drove reorg from vertical products to horizontal platforms, reducing ticket ping-pong and making ownership possible
+          Drove reorg from vertical product teams to horizontal platform ones, reducing ticket ping-pong and enabling ownership
         </li>
         <li>
           Brought fleetwide agent uptime from 90% to 99% on MacOS and under 50% to 96% on Windows
