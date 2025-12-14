@@ -10,24 +10,30 @@ export default () => (
       range="October 2023 - Present"
     >
       <p>
-        I guided technical direction for thirty-five engineers managing a 100k+ device fleet.
+        I guided technical direction for an org of thirty something and a 100k+ device fleet.
         Our patchwork Device Management product was temperamental, written by engineers six years prior for
         an order of magnitude fewer devices. I kept the platform afloat while tech leading the client
         software team.
       </p>
       <ul>
         <li>
-          Led the Devices Client team responsible for 10 separate programs running on MacOS and Windows devices, chiefly a Rust agent
+          Tech led the client software team, managing 10 programs across MacOS and Windows, principally a Rust agent
           {/* CLI Installer Windows, CLI Installer MacOS, Rust agent (pangolin/tg/supervisor), Rescuer Mac, Rescuer Win, electron installer, desktop app (user-facing), tray icon, PSSO extension, pGina fork  */}
         </li>
         <li>
-          Shipped a robust orchestrater for a multiplatform Rust agent to replace a troubled sqlite-based orchestrator
+          Solved multi-month incident pattern others gave up on: blocking API calls at 2k req/s. Saved $10k+/mo in EC2
         </li>
         <li>
-          Roadmapped and completed a linearization of client software installation
+          Drove reorg from vertical products to horizontal platforms, reducing ticket ping-pong and making ownership possible
         </li>
         <li>
-           Architected and executed a reorg from vertical product-sliced teams to horizontal platform-sliced teams
+          Brought fleetwide agent uptime from 90% to 99% on MacOS and under 50% to 96% on Windows
+        </li>
+        <li>
+          Shipped new orchestrator for our agent to replace fundamentally broken sqlite-based system
+        </li>
+        <li>
+          Cut weekly client incidents to bimonthly through systematic process: phased rollouts, CI smoke tests, metrics gates
         </li>
       </ul>
     </ExperienceSubsection>
@@ -39,41 +45,50 @@ export default () => (
         <>
           May 2023 - August 2023
           <br />
-          October 2020 - April 2022
+          October 2019 - April 2022
         </>
       }
     >
       <p>
-        I was employee number 9 at ngrok. I developed Go and Rust microservices on a custom, Kubernetes-backed global edge.
-         My networking and Linux knowledge expanded significantly through debugging and troubleshooting operational incidents
-         against ngrok's network edge. Throughout, I interviewed over a hundred candidates, onboarded a director of engineering,
-        served as the only onboarding mentor for years, refined interview process, and created high quality technical artifacts for
-        the company. I was fortunate to have the opportunity to rework core fundamentals in ngrok's platform over the years.
+        Employee #9 at a company with no EMs, no PMs, no sales team,
+        just 8 engineers who happened to work at the same company
+        coasting on accidental PMF. I interviewed our first
+        wave of leadership: CTO, director of
+        engineering, and all engineering managers.
+        Led <a
+              href="https://ngrok.com/our-product/cloud-edge"
+            > the Cloud Edge platform</a> that enabled
+        our <a
+              href="https://ngrok.com/next-generation"
+            > first product launch</a> and <a href="https://ngrok.com/blog/ngrok-raises-50m-for-ingress-as-a-service">
+        first major raise</a>. Helped transform some lone wolves into 4
+        teams that <em>mostly</em> got along, while building
+        foundational platform features.
       </p>
       <ul>
         <li>
-          Redesigned and tested core ngrok functionality written in Redis Lua to a Rust module
+          Transformed ngrok tunnels from immutable to dynamically controlled via continuous endpoint config re-resolution
         </li>
         <li>
-          Designed and implemented custom module loading system for loading and interfacing with a Redis Rust module from Go deployments
+          Built <a href="https://github.com/brhoades/redis-loadmodbytes">ill-advised Redis module</a> during hackathon to rewrite business critical Lua into Rust; ran in prod for over 3 years
         </li>
         <li>
-          Prototyped, implemented, and migrated a mission critical, fragile, on-cluster Redis deployment to a custom Redis Sentinel system which fits within Kubernetes' API and can be deployed without downtime
+          Brought ngrok tunnels from only basic auth to federated identity: OAuth (4 providers), later SAML/OIDC
         </li>
         <li>
-          Upgraded a year+ old on-premises distribution for ngrok's largest client, working closely with them throughout
+          Created custom Redis Sentinel K8s integration to make it deployable after successfully ignoring the problem for years
         </li>
         <li>
-          Interviewed more than 125 candidates: roughly 50/50 between IC and mangement roles
+          Hackathon: production K8s per PR in CI requiring e2e test pass, replacing our 'find out in prod' merge strategy
         </li>
         <li>
-          Referred 10 engineers from my network with 5 hired (for a time it was 30% of engineers at ngrok)
+          Tcpdumped WAL replication to debug wal2json hiding TOASTed values in custom event bus, mentoring new on-calls through it
         </li>
         <li>
-          Diagnosed and improved performance of Postgres, reworking serializable transactions and tuning the database of a billion+ row delete-heavy database
+          Debugged intermittent query planner failures on billion-row table causing day-long queries; fixed via vacuum and RDS tuning
         </li>
         <li>
-          Worked with new on-call engineers to diagnose Postgres replication (via <a href="https://github.com/eulerto/wal2json">wal2json</a>) erroneously TOASTing values in the WAL
+          Solo migrated largest customer's (double-digit % revenue) 2 year-old distribution through massive platform changes
         </li>
       </ul>
     </ExperienceSubsection>
@@ -82,44 +97,25 @@ export default () => (
       company="ngrok"
       range="April 2022 - May 2023"
     >
-      <p>I managed a team of 7 great engineers in building out and maintaining ngrok's network edge. All the while onboarding our
-        first 3 enginering managers, passing the tech lead torch, acting as PM and TAM, managing upwards, and creating clarity in a new ngrok era.<br />
-        <ul>
-          <li>
-            Led process creation: SDLC, next generation per-team oncall, postmortems, and engineering onboarding process
-          </li>
-          <li>
-            Technical account manager and primary point of contact for ngrok's largest and only on-prem client
-          </li>
-          <li>
-            Wrapped and launched the largest ngrok project yet, Global Network, which spanned over a year of development time
-          </li>
-          <li>
-            Reduced deploy times for pgreplica, ngrok's in-house Postgres replication system, to bring deploy times from 5 hours down to 1.5 hours
-          </li>
-        </ul>
+      <p>
+        Stepped into management after we failed to retain EMs for a
+        couple of years. Built foundational processes: SDLC, on-call
+        rotations, postmortems, onboarding. I also managed the same
+        team I founded, delivering our first product
+        launch. Established the EM role so others could succeed in it.
       </p>
-    </ExperienceSubsection>
-    <ExperienceSubsection
-      title="Software Engineer"
-      company="ngrok"
-      range="October 2019 - October 2020"
-    >
       <ul>
         <li>
-          Architected and developed SSO OAuth integration for endpoint authentication that enforces user-specified constraints
+          Managed on-prem client relationship through contract resign (double-digit % revenue), delivered on technical requirements while holding them accountable
         </li>
         <li>
-          Designed and implemented sweeping changes to existing tunnel middleware system, enabling continuous updates of previously static endpoints based on controlplane changes
+          Led process creation: SDLC, next generation per-team oncall, postmortems, and engineering onboarding process
         </li>
         <li>
-          Designed technical interviews used by the company for the next 4 years
+          Managed team shipping years-long <a href="https://ngrok.com/blog/gslb-global-server-load-balancing">GSLB project</a> eliminating regional boundaries; enabled automatic global failover
         </li>
         <li>
-          Developed webhook verification middleware to easily enforce webhook authz with ngrok
-        </li>
-        <li>
-          Greatly improved CI coverage by running integration tests against a per-job Kubernetes cluster with production-like ngrok deployment
+          Cut pgreplica deploy times from 5 hours to 1.5 hours. pgreplica is ngrok's critical event bus
         </li>
       </ul>
     </ExperienceSubsection>
@@ -130,7 +126,7 @@ export default () => (
     >
       <ul>
         <li>
-          Managed and onboarded a team of 7 excusively new engineers in fixing defects and enhancing Patient Portal
+          Managed a team of 7 exclusively new engineers in fixing defects and enhancing Patient Portal
         </li>
         <li>
           Triaged, prioritized, and handled client escalations for a product with 1,000+ clients while filtering and investigating incoming defects
@@ -142,10 +138,7 @@ export default () => (
           Streamlined release processes: combined 7 redundant workplans signed more than twice a month by multiple people into 2 workplans; reduced time spent creating artifacts every release from 2 hours to 15 minutes
         </li>
         <li>
-          Prototyped, estimated, and proposed a Python 2.7 to 3.4, Django 1.7 to 2.0 conversion of 5+ year old Django monolith
-        </li>
-        <li>
-          Prototyped and proposed a Dockerized Patient Portal
+          Prototyped and pitched a Python 2.7 to 3.4, Django 1.7 to 2.0 conversion of 5+ year old Django monolith
         </li>
       </ul>
     </ExperienceSubsection>
