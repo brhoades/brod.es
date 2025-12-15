@@ -76,7 +76,7 @@ export default () => (
           Brought ngrok tunnels from only basic auth to federated identity: OAuth (4 providers), later SAML/OIDC
         </li>
         <li>
-          Created custom Redis Sentinel K8s integration to make it deployable after successfully ignoring the problem for years
+          Created custom Redis Sentinel K8s integration to make Redis deployable after successfully ignoring the problem for years
         </li>
         <li>
           Hackathon: production K8s per PR in CI requiring e2e test pass, replacing our 'find out in prod' merge strategy
