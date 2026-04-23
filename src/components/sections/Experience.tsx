@@ -7,7 +7,7 @@ export default () => (
     <ExperienceSubsection
       title="Staff Software Engineer"
       company="Rippling - IT - Devices"
-      range="October 2023 - Present"
+      range="October 2023 - Jan 2026"
     >
       <p>
         I guided technical direction for an org of thirty something and a 100k+ device fleet.
@@ -25,6 +25,9 @@ export default () => (
         </li>
         <li>
           Drove reorg from vertical product teams to horizontal platform ones, reducing ticket ping-pong and enabling ownership
+        </li>
+        <li>
+          Eliminated service shutdown race by abusing <a href="https://doc.rust-lang.org/std/thread/struct.LocalKey.html#platform-specific-behavior">Windows TLS destructors</a> and Rust borrow mechanics across threads
         </li>
         <li>
           Brought fleetwide agent uptime from 90% to 99% on MacOS and under 50% to 96% on Windows
