@@ -5,6 +5,18 @@ import ExperienceSubsection from './ExperienceSubsection';
 export default () => (
   <React.Fragment>
     <ExperienceSubsection
+      title="Software Consultant"
+      company="Stealth Startup"
+      range="January 2026 - March 2026"
+    >
+      <p>
+        I developed the next generation market feed ingest system. It
+        was a multi platform, WebSocket-streamed, Rust microservice
+        system on EKS that achieved high availability through
+        redundant streams and sharded ticker distribution.
+      </p>
+    </ExperienceSubsection>
+    <ExperienceSubsection
       title="Staff Software Engineer"
       company="Rippling - IT - Devices"
       range="October 2023 - Jan 2026"
