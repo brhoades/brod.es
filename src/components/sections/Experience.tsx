@@ -6,14 +6,14 @@ export default () => (
   <React.Fragment>
     <ExperienceSubsection
       title="Software Consultant"
-      company="Stealth Startup"
+      company="Stealth startup"
       range="January 2026 - March 2026"
     >
       <p>
-        I developed the next generation market feed ingest system. It
-        was a multi platform, WebSocket-streamed, Rust microservice
-        system on EKS that achieved high availability through
-        redundant streams and sharded ticker distribution.
+        I developed a multi-platform market feed ingest system in
+        Rust. Using microservices on EKS, it achieved high
+        availability through layered redundancy and sharded ticker
+        distribution.
       </p>
     </ExperienceSubsection>
     <ExperienceSubsection
